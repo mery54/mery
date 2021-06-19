@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages of Dominique Méry
 
 You can use the [editor on GitHub](https://github.com/mery54/mery.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -11,8 +11,13 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
+# Bio
+- Professor of Computing Science at Université de Lorraine
+- Researcher in the team MOSEL of the Department Formal Methods of the LORIA Laboratory   
+# Projects
+- ANR Project DISCONT
+- ANR Project Formedicis
+- ANR Project EBRP PLus
 ### Header 3
 
 - Bulleted
