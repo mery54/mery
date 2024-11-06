@@ -1,0 +1,320 @@
+\batchmode
+\documentclass[12pt]{article}
+
+
+\usepackage{times,vmargin,url}
+\setmarginsrb{3cm}{1cm}{2cm}{1cm}{1cm}{1cm}{1cm}{1cm}
+
+\usepackage{html,color}
+
+\pagecolor{cyan} 
+
+\title{Modelling Software-based Systems}
+
+%
+\providecommand{\keywords}[1]{\textbf{Keywords:} #1}  %\\\clearpage %\tableofcontents\clearpage}
+
+\author{Dominique M\'ery\\
+LORIA \& Telecom Nancy\\Universit\'e de Lorraine\\\url{dominique.mery@loria.fr}}
+
+\date{\today}
+
+\usepackage{xcolor}
+
+\usepackage{cite,time}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor,time,url,nbcode,version}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{bussproofs}
+\usepackage{wrapfig,setspace}
+\usepackage{xspace}
+\usepackage{hyperref}
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+\let\proof\relax
+\let\endproof\relax
+\let\example\relax
+\let\endexample\relax
+
+\usepackage{mathpartir}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{rotating}
+\usepackage{blox}
+\usepackage{graphicx} 
+\usepackage{eventblst}
+\usepackage{cite}
+\usepackage{dafny}
+
+\usepackage{xcolor}
+\usepackage{ifthen}
+
+\newboolean{showcomments} 
+\setboolean{showcomments}{true} % toggle to show or hide comments
+
+\ifthenelse{\boolean{showcomments}} { 
+    \usepackage{outlines}
+    \let\oldoutline
+\usepackage[normalem]{ulem}%
+\providecommand{\xnote}[3][]{\textcolor{red}{#2}$\rightarrow$\  \textcolor{blue}{\textbf{#1} #3}}%
+\providecommand{\xtodo}[2][]{} 
+
+%
+\providecommand{\xreplace}[3][]{\def \temp{#3} \ifx\temp\empty  \textcolor{red}{\textbf{#1} \sout{#2}} \else \textcolor{red}{\sout{#2}} $\rightarrow$\  \textcolor{blue}{\textbf{#1} "#3"} \fi}%
+\providecommand{\xdelete}[2][]{}%
+\providecommand{\xadd}[2][]{#2} 
+} {%
+\providecommand{\xnote}[3][]{}%
+\providecommand{\xtodo}[2][]{}%
+\providecommand{\xreplace}[3][]{#3}%
+\providecommand{\xdelete}[2][]{}%
+\providecommand{\xadd}[2][]{#2} 
+    
+    
+    
+    
+    
+}
+
+%
+\providecommand{\dnote}[2]{}%
+\providecommand{\dtodo}[1]{}%
+\providecommand{\dreplace}[2]{#2}%
+\providecommand{\ddelete}[1]{}%
+\providecommand{\dadd}[1]{#1} 
+
+%
+\providecommand{\znote}[2]{}%
+\providecommand{\ztodo}[1]{}%
+\providecommand{\zreplace}[2]{#2}%
+\providecommand{\zdelete}[1]{}%
+\providecommand{\zadd}[1]{#1} 
+
+%
+\providecommand{\PB}{{\sc\bf  PB}\;}%
+\providecommand{\MO}{{\sc\bf  MO}\;}%
+\providecommand{\GC}{{\sc\bf  GC}\;}%
+\providecommand{\HP}{{\sc\bf  HP}\;}%
+\providecommand{\dL}{d${\cal  L}$\;} 
+
+%
+\providecommand{\choice}{[\!]}%
+\providecommand{\set}[1]{\{#1\}}%
+\providecommand{\aloop}[1]{\textbf{do}\  #1  \ \textbf{od}} 
+
+\makeatletter
+
+\makeatother
+
+\newtheorem{myexample}{Example}[section] 
+\newtheorem{mytheorem}{Property} \includeversion{check}
+
+\newtheorem{exemple}{Example} 
+\excludeversion{comm}
+
+%
+\renewcommand{\CONTEXT}[3]{\Bclause{CONTEXT}\ #1\\}
+%
+\renewcommand{\Axiom}[4]{\quad #1:#3\\}
+%
+\renewcommand{\Invariant}[4]{\quad #1:#3\\}
+%
+\renewcommand{\INVARIANTS}[1]{\Bclause{INVARIANTS}\\#1}
+%
+\renewcommand{\CONSTANTS}[1]{\Bclause{CONSANTS}\\#1}
+%
+\renewcommand{\AXIOMS}[1]{\Bclause{AXIOMS}\\#1}
+%
+\renewcommand{\EVENTS}[1]{%\Bclause{EVENTS}\\
+  #1}
+%
+\renewcommand{\INITIALISATION}[3]{#3\\}
+%
+\renewcommand{\Action}[4]{\quad #1:#2\\}%
+\providecommand{\Actione}[4]{\quad #1:#2} 
+%
+\renewcommand{\ACTIONS}[2]{\Bkeyword{then}\\#2\\}
+%
+\renewcommand{\EVT}[6]{\textsf{Event}\ #1\\
+  % \textsf{refines}\ #4\\
+  #6}
+%
+\renewcommand{\GUARDS}[2]{\Bkeyword{when}\\#2\\
+}
+%
+\renewcommand{\Guard}[5]{\quad #1:#3\\}%
+\providecommand{\Guarde}[5]{\quad #1:#3} 
+%
+\renewcommand{\MACHINE}[4]{\Bclause{MACHINE}\ #1\ \Bclause{SEES}\ #3\\}
+
+%
+\renewcommand{\END}{\textsf{end}\\}
+
+%
+\renewcommand{\VARIABLES}[1]{\Bclause{VARIABLES}\\\quad \quad #1\\}
+%
+\renewcommand{\Variable}[2]{ #1\  }
+%
+\renewcommand{\Constant}[2]{ #1, }
+
+%
+\renewcommand{\VARIANT}[1]{\Bkeyword{Variant}\\\quad #1\\}
+%
+\renewcommand{\Variant}[2]{#1\\}
+
+%
+\renewcommand{\ANY}[2]{\Bkeyword{Any}\\#1\\}
+%
+\renewcommand{\Param}[3]{\quad  #1,}%
+\providecommand{\WITNESSES}[1]{\Bclause{WITH}\\#1}%
+\providecommand{\Witness}[3]{\quad  #1:#2\\} 
+
+\pagestyle{plain}
+
+
+
+
+\makeatletter
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\usepackage[tightpage,active]{preview}
+\PreviewBorder=0.5bp
+\newbox\lthtmlPageBox
+\newdimen\lthtmlCropMarkHeight
+\newdimen\lthtmlCropMarkDepth
+\long\def\lthtmlTightVBoxA#1{\def\lthtmllabel{#1}
+    \setbox\lthtmlPageBox\vbox\bgroup\catcode`\_=8 }%
+\long\def\lthtmlTightVBoxZ{\egroup
+    \lthtmlCropMarkHeight=\ht\lthtmlPageBox \advance \lthtmlCropMarkHeight 6pt
+    \lthtmlCropMarkDepth=\dp\lthtmlPageBox
+    \lthtmltypeout{^^J:\lthtmllabel:lthtmlCropMarkHeight:=\the\lthtmlCropMarkHeight}%
+    \lthtmltypeout{^^J:\lthtmllabel:lthtmlCropMarkDepth:=\the\lthtmlCropMarkDepth:1ex:=\the \dimexpr 1ex}%
+    \begin{preview}\copy\lthtmlPageBox\end{preview}}%
+\long\def\lthtmlTightFBoxA#1{\def\lthtmllabel{#1}%
+    \adjustnormalsize\setbox\lthtmlPageBox=\vbox\bgroup\hbox\bgroup %
+    \let\ifinner=\iffalse \let\)\liih@math %
+    \bgroup\catcode`\_=8 }%
+\long\def\lthtmlTightFBoxZ{\egroup\egroup
+    \@next\next\@currlist{}{\def\next{\voidb@x}}%
+    \expandafter\box\next\egroup %
+    \lthtmlCropMarkHeight=\ht\lthtmlPageBox \advance \lthtmlCropMarkHeight 6pt
+    \lthtmlCropMarkDepth=\dp\lthtmlPageBox
+    \lthtmltypeout{^^J:\lthtmllabel:lthtmlCropMarkHeight:=\the\lthtmlCropMarkHeight}%
+    \lthtmltypeout{^^J:\lthtmllabel:lthtmlCropMarkDepth:=\the\lthtmlCropMarkDepth:1ex:=\the \dimexpr 1ex}%
+    \begin{preview}\copy\lthtmlPageBox\end{preview}}%
+    \long\def\lthtmlinlinemathA#1#2\lthtmlindisplaymathZ{\lthtmlTightVBoxA{#1}{\hbox\bgroup#2\egroup}\lthtmlTightVBoxZ}
+    \def\lthtmlinlineA#1#2\lthtmlinlineZ{\lthtmlTightVBoxA{#1}{\hbox\bgroup#2\egroup}\lthtmlTightVBoxZ}
+    \long\def\lthtmldisplayA#1#2\lthtmldisplayZ{\lthtmlTightVBoxA{#1}{#2}\lthtmlTightVBoxZ}
+    \long\def\lthtmldisplayB#1#2\lthtmldisplayZ{\\edef\preveqno{(\theequation)}%
+        \lthtmlTightVBoxA{#1}{\let\@eqnnum\relax#2}\lthtmlTightVBoxZ}
+    \long\def\lthtmlfigureA#1{\let\@savefreelist\@freelist
+        \lthtmlTightFBoxA{#1}}
+    \long\def\lthtmlfigureZ{
+        \lthtmlTightFBoxZ\global\let\@freelist\@savefreelist}
+    \long\def\lthtmlpictureA#1{\let\@savefreelist\@freelist
+        \lthtmlTightVBoxA{#1}}
+    \long\def\lthtmlpictureZ{
+        \lthtmlTightVBoxZ\global\let\@freelist\@savefreelist}
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+\providecommand{\Alpha}{\textrm{A}}
+\providecommand{\Beta}{\textrm{B}}
+\providecommand{\Chi}{\textrm{X}}
+\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Eta}{\textrm{H}}
+\providecommand{\Iota}{\textrm{J}}
+\providecommand{\Kappa}{\textrm{K}}
+\providecommand{\Mu}{\textrm{M}}
+\providecommand{\Nu}{\textrm{N}}
+\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Tau}{\textrm{T}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\omicron}{\textrm{o}}
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+\setboolean{showcomments}{true}
+
+
+\newcounter{ex}%
+
+\setcounter{ex}{1}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline578}%
+$ ^+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+
+\end{document}

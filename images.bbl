@@ -1,0 +1,59 @@
+\begin{thebibliography}{1}
+
+\bibitem{losl-eatcs}
+Dines Bj{\o}rner and Martin~C.\ Henson, editors.
+\newblock {\em Logics of Specification Languages}.
+\newblock EATCS Textbook in Computer Science. Springer, 2007.
+
+\bibitem{losl-b}
+Dominique Cansell and Dominique M{\'e}ry.
+\newblock {\em The event-B Modelling Method: Concepts and Case Studies}, pages
+  33--140.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-casl}
+Ra{\v{z}}van Diaconescu.
+\newblock {\em A Methodological Guide to CafeOBJ Logic}, pages 143--222.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-vdm}
+John Fitzgerald.
+\newblock {\em The Typed Logic of Partial Functions and the Vienna Development
+  Method}, pages 431--465.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-raise}
+Chris George and Anne~E.\ Haxthausen.
+\newblock {\em The Logic of the RAISE Specification Language}, pages 329--379.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-dc}
+Michael~R. Hansen.
+\newblock {\em Duration Calculus}, pages 281--328.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-z}
+Martin~C.\ Henson, Moshe Deutsch, and Steve Reeves.
+\newblock {\em Z Logic and its Applications}, pages 467--569.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-tla}
+Stephan Merz.
+\newblock {\em The Specification Language TLA$^+$}, pages 381--430.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\bibitem{losl-cafeobj}
+Till Mossakowski, Anne~E.\ Haxthausen, Don Sanella, and Andrzej Tarlecki.
+\newblock {\em CASL -- The Common Algebraic Specification Language}, pages
+  223--280.
+\newblock Springer, 2007.
+\newblock See \cite{losl-eatcs}.
+
+\end{thebibliography}
