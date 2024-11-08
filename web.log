@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  8 NOV 2024 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  8 NOV 2024 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,21 +1477,28 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
 8.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./web.4ct) [3]
-No file web.bbl.
-[4] (./web.aux)
+) (./web.4ct) [3] (./web.bbl [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [
+15] [16] [17] [18] [19]
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 8
+60.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 860.
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]) [31] (./web.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32059 strings out of 474117
- 590171 string characters out of 5743708
- 1932184 words of memory out of 5000000
- 53542 multiletter control sequences out of 15000+600000
- 566812 words of font info for 65 fonts, out of 8000000 for 9000
+ 32481 strings out of 474117
+ 600120 string characters out of 5743708
+ 1934184 words of memory out of 5000000
+ 53957 multiletter control sequences out of 15000+600000
+ 567718 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,8n,120p,906b,760s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,8n,120p,906b,1465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (4 pages, 29252 bytes).
+Output written on web.dvi (31 pages, 165140 bytes).
