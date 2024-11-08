@@ -25,4 +25,6 @@ The web.aux file was not found, so sections will not be numbered
 and cross-references will be shown as icons.
 boolean showcomments not defined
 
+? brace missing for \href
+
 The bibliography file was not found.
