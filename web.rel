@@ -31,6 +31,10 @@
 
 (toc "toc" "    2 Research" "/Users/mery/webmery/web.tex" nil 2 "2" "\\section{Research}" 2511)
 
+(toc "toc" "    3 Publications " "/Users/mery/webmery/web.tex" nil 2 "3" "\\section{Publications }" 2818)
+
+("sec:publications-" "s" nil "/Users/mery/webmery/web.tex" nil "")
+
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)
 
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)
