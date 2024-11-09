@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  9 NOV 2024 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  9 NOV 2024 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,261 +1486,25 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (./web.4ct) [3]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-29.
+38.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [4]
-! Undefined control sequence.
-<recently read> \pr 
-                    
-l.147 \item \pr
-               ~~\`a~~l'~\inancyIesial\ since September 1, 1993 (First Class...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.147 \item \pr~~\`a~~l'~\inancyIesial
-                                      \ since September 1, 1993 (First Class...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[5]
-! Undefined control sequence.
-l.191 \rubrique
-               {Grants, Prices and Reputation}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.206 \rubrique
-               {Assessment and Scientific Expertise}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6]
-! Undefined control sequence.
-l.249 \rubrique
-               {Scientific Management}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-! Undefined control sequence.
-l.272 \rubrique
-               {Administrative and social activities}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[8]
-
-LaTeX Warning: dr-bib: bibliography style ``plain'' ignored on input line 313.
-
-(./pub-gen.bbl [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éry).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.569 \originalbibitem{mery2018crisis}{\sc D.~Méry
-                                                  }. --
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[19]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éry).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 \originalbibitem{mery2019jaipur}{\sc D.~Méry
-                                                  }. --
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[20] [21] [22] [23] [24]
-
-! LaTeX Error: Command \guillemetleft unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.922   Â«
-          PERSPECTIVES OF SYSTEM INFORMATICS\/}, A.~Marchuk (r\'ed.), Novosi...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[25] [26] [27]
+) [4] [5] [6] [7] [8] [9] (./phdlist.tex [10] [11]) (./pub-gen.bbl [12] [13] [1
+4] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
 l. 1109 Writing web.idv[1] (web0x.svg)
-[28] [29] [30] [31] [32] [33] [34]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éro).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1568 \newblock {\em Internal Report numéro
-                                            {} CRIN-89-R-60\/}, {C}entre de
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éro).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1576 \newblock {\em Rapport Interne numéro
-                                            {} CRIN-89-R-229\/}, CRIN, octob...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éro).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1581 \newblock {\em Research Report numéro
-                                            {} CRIN-89-R-205\/}, Centre de R...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éro).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1590 \newblock {\em Rapport numéro
-                                    {} num\'{e}ro de convention 89-58 00 790 92
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[35] [36]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (éro).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1678 \newblock {\em Rapport numéro
-                                    {} RR-7081\/}, INRIA, 2009.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[37] [38]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (ème).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1787 \newblock -Algorithmique des Système
-                                           s Parallèles et Distribués-. --
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (èle).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1787 ...ck -Algorithmique des Systèmes Parallèle
-                                                  s et Distribués-. --
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (és-).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1787 ...e des Systèmes Parallèles et Distribués-
-                                                  . --
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[39]) [40] (./web.aux)
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]) [42] (./web.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32723 strings out of 474117
- 601685 string characters out of 5743708
+ 32748 strings out of 474117
+ 602079 string characters out of 5743708
  1936184 words of memory out of 5000000
- 54180 multiletter control sequences out of 15000+600000
+ 54202 multiletter control sequences out of 15000+600000
  579998 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,8n,120p,906b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,8n,120p,906b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (40 pages, 221488 bytes).
+Output written on web.dvi (42 pages, 230956 bytes).
