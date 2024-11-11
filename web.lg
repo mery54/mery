@@ -188,7 +188,6 @@ Css: span.xout, .xout-math {text-decoration: line-through underline }
 Css: span.uwave, .uwave-math {text-decoration:underline wavy; }
 Css: span.dashuline, .dashuline-math {text-decoration:underline dashed;}
 Css: span.dotuline, .dotuline-math {text-decoration:underline dotted;}
-File: ./merysf.jpg
 Css: img[src="web0x.svg"]{vertical-align:-0%}
 --- needs --- web.idv[2] ==> web0x.svg ---
 --- characters ---
