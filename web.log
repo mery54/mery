@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,7 +1491,7 @@ f.xbb" (no BoundingBox) ---
 l. 85 --- needs --- ./images/merysf.jpg ---
 (./web.4ct) [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-96.
+98.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [5] [6] [7] [8] [9] (./phdlist.tex [10] [11]) (./pub-gen.bbl [12] [13] [14] [
@@ -1504,12 +1504,12 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32770 strings out of 474117
- 602354 string characters out of 5743708
+ 32774 strings out of 474117
+ 602388 string characters out of 5743708
  1936184 words of memory out of 5000000
- 54221 multiletter control sequences out of 15000+600000
+ 54225 multiletter control sequences out of 15000+600000
  579998 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,9n,120p,906b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (42 pages, 233300 bytes).
+Output written on web.dvi (42 pages, 233440 bytes).
