@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1533,7 +1533,7 @@ l. 95 --- needs --- ./images/merysf.jpg ---
 --- file Teaching.html ---
 [3]
 
-Package hyperref Warning: Suppressing link with empty target on input line 141.
+Package hyperref Warning: Suppressing link with empty target on input line 142.
 
 
 [4]
@@ -1555,7 +1555,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 141.
 (./web.tmp)
 --- file CurriculumVitae.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-16.
+17.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [6
