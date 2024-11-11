@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,8 @@ de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
 {\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafte
 r\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@
 ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\m
-akeatother\HCode xhtml,,charset=utf-8,html5.a.b.c.\input "\detokenize{web}"
+akeatother\HCode xhtml,3,sec-filename,fn-in,charset=utf-8,html5.a.b.c.\input "\
+detokenize{web.tex}"
 (/usr/local/texlive/2024/texmf-dist/tex/generic/tex4ht/tex4ht.sty
 version 2024-01-23-13:44
 Package: tex4ht 
@@ -938,7 +939,7 @@ option `frames-fn'
 --------------------------------------
 --- Note --- for file extension name xht, use the command line option `xht'
 --------------------------------------
-TeX4ht package options: xhtml,charset=utf-8,html5,html
+TeX4ht package options: xhtml,3,sec-filename,fn-in,charset=utf-8,html5,html
 --------------------------------------
 --- Note --- To print a timestamp, use the command line option timestamp
 --------------------------------------
@@ -1041,9 +1042,7 @@ ommand line option `enumerate-'
 --- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
 
 --------------------------------------
---------------------------------------
---- Note --- for inline footnotes use command line option `fn-in'
---------------------------------------
+\fn:box=\box105
 --------------------------------------
 --- Note --- for tracing of latex font commands, use the command line option `f
 onts'
@@ -1092,12 +1091,25 @@ version 2023-04-10-13:46
 (/usr/local/texlive/2024/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2024-02-29-14:09
 --------------------------------------
---- Note --- for automatic sectioning pagination, use the command line option `
-1', `2', `3', '4', '5', '6', or '7'
+--- Note --- for tocs without * entries, use command line option `notoc*'
 --------------------------------------
 --------------------------------------
---- Note --- for files named derived from section titles, use the command line 
-option `sec-filename'
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- for frames-like object-based table of contents, use the command li
+ne option `obj-toc'
 --------------------------------------
 --------------------------------------
 --- Note --- for i-columns index, use the command line option `index=i' (e.g., 
@@ -1453,10 +1465,10 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2024-02-20 L3 backend support: dvips
-\l__pdf_internal_box=\box105
+\l__pdf_internal_box=\box106
 \g__pdf_backend_object_int=\count342
-\l__pdf_backend_content_box=\box106
-\l__pdf_backend_model_box=\box107
+\l__pdf_backend_content_box=\box107
+\l__pdf_backend_model_box=\box108
 \g__pdf_backend_annotation_int=\count343
 \g__pdf_backend_link_int=\count344
 \g__pdf_backend_link_sf_int=\count345
@@ -1511,32 +1523,88 @@ l.95 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
 l.95 --- TeX4ht warning --- Cannot determine size of graphic in "./images/merys
 f.xbb" (no BoundingBox) ---
 l. 95 --- needs --- ./images/merysf.jpg ---
-(./web.4ct [3])
+(./web.4ct)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file contentsname.html ---
+[3] (./web.4ct) [4]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file Teaching.html ---
 
 Package hyperref Warning: Suppressing link with empty target on input line 141.
 
 
-[4]
+[5
+
+]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file Research.html ---
+[6
+
+]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file CurriculumVitae.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 16.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5] [6] [7] [8] [9] (./phdlist.tex [10] [11]) [12] (./pub-gen.bbl [13] [14] [
-15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+) [7
+
+] [8] [9] [10] [11] [12]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file ListofPhDSupervisions.html ---
+(./phdlist.tex [13
+
+]) [14]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file Publications.html ---
+(./pub-gen.bbl [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
+[28] [29] [30] [31] [32]
 l. 1109 Writing web.idv[1] (web0x.svg)
-[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]) [43] (./web.aux)
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44]) [45] [46
+
+] (./web.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32845 strings out of 474117
- 603937 string characters out of 5743708
+ 33058 strings out of 474117
+ 607103 string characters out of 5743708
  1936184 words of memory out of 5000000
- 54284 multiletter control sequences out of 15000+600000
+ 54471 multiletter control sequences out of 15000+600000
  579998 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,10n,120p,906b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,10n,120p,930b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (43 pages, 236548 bytes).
+Output written on web.dvi (46 pages, 246932 bytes).
