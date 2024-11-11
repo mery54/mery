@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,22 +1530,13 @@ l. 95 --- needs --- ./images/merysf.jpg ---
 \openout15 = `web.tmp'.
 
 (./web.tmp)
---- file contentsname.html ---
-[3] (./web.4ct) [4]
-\openout15 = `web.tmp'.
-
-(./web.tmp)
-\openout15 = `web.tmp'.
-
-(./web.tmp)
 --- file Teaching.html ---
+[3]
 
 Package hyperref Warning: Suppressing link with empty target on input line 141.
 
 
-[5
-
-]
+[4]
 \openout15 = `web.tmp'.
 
 (./web.tmp)
@@ -1553,7 +1544,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 141.
 
 (./web.tmp)
 --- file Research.html ---
-[6
+[5
 
 ]
 \openout15 = `web.tmp'.
@@ -1567,9 +1558,9 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 16.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [7
+) [6
 
-] [8] [9] [10] [11] [12]
+] [7] [8] [9] [10] [11]
 \openout15 = `web.tmp'.
 
 (./web.tmp)
@@ -1577,9 +1568,9 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 (./web.tmp)
 --- file ListofPhDSupervisions.html ---
-(./phdlist.tex [13
+(./phdlist.tex [12
 
-]) [14]
+]) [13]
 \openout15 = `web.tmp'.
 
 (./web.tmp)
@@ -1587,10 +1578,10 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 (./web.tmp)
 --- file Publications.html ---
-(./pub-gen.bbl [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
-[28] [29] [30] [31] [32]
+(./pub-gen.bbl [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
+[27] [28] [29] [30] [31]
 l. 1109 Writing web.idv[1] (web0x.svg)
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44]) [45] [46
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]) [44] [45
 
 ] (./web.aux)
  ***********
@@ -1599,12 +1590,12 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33058 strings out of 474117
- 607103 string characters out of 5743708
+ 33013 strings out of 474117
+ 606493 string characters out of 5743708
  1936184 words of memory out of 5000000
- 54471 multiletter control sequences out of 15000+600000
+ 54432 multiletter control sequences out of 15000+600000
  579998 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,10n,120p,930b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (46 pages, 246932 bytes).
+Output written on web.dvi (45 pages, 242164 bytes).
