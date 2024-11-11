@@ -1,5 +1,5 @@
-%\documentclass[ 12pt]{article}
-\documentclass[ 12pt]{book}
+\documentclass[ 12pt]{article}
+%\documentclass[ 12pt]{book}
 
 \usepackage{times,vmargin,url,html}
 \setmarginsrb{3cm}{1cm}{2cm}{1cm}{1cm}{1cm}{1cm}{1cm}
@@ -71,6 +71,16 @@ LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
 \url{https://members.loria.fr/Mery}\\ \url{dominique-dot-mery-at-loria-dot-fr}}
 
 \date{Last updated \now on \today}
+
+\makeatletter
+\renewcommand\contentsname{Summary of the links}
+\renewcommand\tableofcontents{%
+  \null\hfill\textbf{\Large\contentsname}\hfill\null\par
+  \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+  \@starttoc{toc}%
+}
+\makeatother
+
 
 \begin{document}
 \newcounter{ex}  \setcounter{ex}{1}

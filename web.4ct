@@ -1,31 +1,31 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
-\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{3}\relax 
-\doTocEntry\tocsection{0.1}{\csname a:TocLink\endcsname{1}{x1-20000.1}{QQ2-1-2}{Teaching}}{3}\relax 
-\doTocEntry\tocsection{0.2}{\csname a:TocLink\endcsname{1}{x1-30000.2}{QQ2-1-3}{Research}}{4}\relax 
-\doTocEntry\tocsubsection{0.2.1}{\csname a:TocLink\endcsname{1}{x1-40000.2.1}{QQ2-1-4}{Current scientific activities}}{4}\relax 
-\doTocEntry\tocsection{0.3}{\csname a:TocLink\endcsname{1}{x1-50000.3}{QQ2-1-5}{Curriculum Vitae}}{4}\relax 
-\doTocEntry\tocsubsection{0.3.1}{\csname a:TocLink\endcsname{1}{x1-60000.3.1}{QQ2-1-6}{Titles and Diploms}}{4}\relax 
-\doTocEntry\tocsubsection{0.3.2}{\csname a:TocLink\endcsname{1}{x1-70000.3.2}{QQ2-1-7}{Professional Records}}{5}\relax 
-\doTocEntry\tocsubsection{0.3.3}{\csname a:TocLink\endcsname{1}{x1-80000.3.3}{QQ2-1-8}{National and International Implications:}}{6}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-9000}{QQ2-1-9}{Grants, Prices and Reputation}}{6}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-10000}{QQ2-1-10}{Assessment and Scientific Expertise}}{7}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-11000}{QQ2-1-11}{Scientific Management}}{8}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-12000}{QQ2-1-12}{Administrative and social activities}}{9}\relax 
-\doTocEntry\tocsection{0.4}{\csname a:TocLink\endcsname{1}{x1-130000.4}{QQ2-1-13}{List of PhD Supervisions}}{10}\relax 
-\doTocEntry\tocsection{0.5}{\csname a:TocLink\endcsname{1}{x1-140000.5}{QQ2-1-14}{Publications }}{12}\relax 
-\doTocEntry\tocsubsection{0.5.1}{\csname a:TocLink\endcsname{1}{x1-150000.5.1}{QQ2-1-15}{On HAL}}{12}\relax 
-\doTocEntry\tocsubsection{0.5.2}{\csname a:TocLink\endcsname{1}{x1-160000.5.2}{QQ2-1-16}{On DBLP }}{12}\relax 
-\doTocEntry\tocsubsection{0.5.3}{\csname a:TocLink\endcsname{1}{x1-170000.5.3}{QQ2-1-17}{My list of publications}}{12}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-18000}{QQ2-1-18}{Books, monographs and proceeedings}}{12}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-19000}{QQ2-1-19}{Theses}}{15}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-20000}{QQ2-1-20}{Papers in peer reviewed journals}}{15}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-21000}{QQ2-1-21}{General Papers for Popularization}}{19}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-22000}{QQ2-1-22}{Book chapters}}{20}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-23000}{QQ2-1-23}{Invited Conferences}}{21}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-24000}{QQ2-1-24}{Communications in international conferences or symposia with peer-reviewed proceedings published by Springer, IEEE, ACM, Elsevier, Leibnitz Institute}}{22}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-25000}{QQ2-1-25}{Communications in international workshops or national conferences with peer-reviewed proceedings}}{33}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-26000}{QQ2-1-26}{Research reports}}{37}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-27000}{QQ2-1-27}{Software}}{40}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-28000}{QQ2-1-28}{Lectures Notes}}{41}\relax 
-\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-29000}{QQ2-1-29}{Electronic repositories}}{42}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Summary of the links}}{3}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Teaching}}{4}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-30002}{QQ2-1-3}{Research}}{4}\relax 
+\doTocEntry\tocsubsection{2.1}{\csname a:TocLink\endcsname{1}{x1-40002.1}{QQ2-1-4}{Current scientific activities}}{5}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-50003}{QQ2-1-5}{Curriculum Vitae}}{5}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{1}{x1-60003.1}{QQ2-1-6}{Titles and Diploms}}{5}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{1}{x1-70003.2}{QQ2-1-7}{Professional Records}}{6}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{1}{x1-80003.3}{QQ2-1-8}{National and International Implications:}}{7}\relax 
+\doTocEntry\tocsubsubsection{3.3.1}{\csname a:TocLink\endcsname{1}{x1-90003.3.1}{QQ2-1-9}{Grants, Prices and Reputation}}{7}\relax 
+\doTocEntry\tocsubsubsection{3.3.2}{\csname a:TocLink\endcsname{1}{x1-100003.3.2}{QQ2-1-10}{Assessment and Scientific Expertise}}{7}\relax 
+\doTocEntry\tocsubsubsection{3.3.3}{\csname a:TocLink\endcsname{1}{x1-110003.3.3}{QQ2-1-11}{Scientific Management}}{8}\relax 
+\doTocEntry\tocsubsubsection{3.3.4}{\csname a:TocLink\endcsname{1}{x1-120003.3.4}{QQ2-1-12}{Administrative and social activities}}{9}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-130004}{QQ2-1-13}{List of PhD Supervisions}}{11}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{1}{x1-140005}{QQ2-1-14}{Publications }}{13}\relax 
+\doTocEntry\tocsubsection{5.1}{\csname a:TocLink\endcsname{1}{x1-150005.1}{QQ2-1-15}{On HAL}}{13}\relax 
+\doTocEntry\tocsubsection{5.2}{\csname a:TocLink\endcsname{1}{x1-160005.2}{QQ2-1-16}{On DBLP }}{13}\relax 
+\doTocEntry\tocsubsection{5.3}{\csname a:TocLink\endcsname{1}{x1-170005.3}{QQ2-1-17}{My list of publications}}{13}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-18000}{QQ2-1-18}{Books, monographs and proceeedings}}{13}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-19000}{QQ2-1-19}{Theses}}{16}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-20000}{QQ2-1-20}{Papers in peer reviewed journals}}{16}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-21000}{QQ2-1-21}{General Papers for Popularization}}{20}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-22000}{QQ2-1-22}{Book chapters}}{21}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-23000}{QQ2-1-23}{Invited Conferences}}{22}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-24000}{QQ2-1-24}{Communications in international conferences or symposia with peer-reviewed proceedings published by Springer, IEEE, ACM, Elsevier, Leibnitz Institute}}{23}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-25000}{QQ2-1-25}{Communications in international workshops or national conferences with peer-reviewed proceedings}}{34}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-26000}{QQ2-1-26}{Research reports}}{38}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-27000}{QQ2-1-27}{Software}}{41}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-28000}{QQ2-1-28}{Lectures Notes}}{42}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-29000}{QQ2-1-29}{Electronic repositories}}{43}\relax 
 \par 
