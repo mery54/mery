@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1511,7 +1511,12 @@ l.85 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
 l.85 --- TeX4ht warning --- Cannot determine size of graphic in "./images/merys
 f.xbb" (no BoundingBox) ---
 l. 85 --- needs --- ./images/merysf.jpg ---
-(./web.4ct [3]) [4]
+(./web.4ct [3])
+
+Package hyperref Warning: Suppressing link with empty target on input line 131.
+
+
+[4]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 06.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1534,4 +1539,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  113i,10n,120p,906b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (43 pages, 236420 bytes).
+Output written on web.dvi (43 pages, 236528 bytes).
