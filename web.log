@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.6.18)  11 NOV 2024 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1532,9 +1532,9 @@ l. 95 --- needs --- ./images/merysf.jpg ---
 (./web.tmp)
 --- file contentsname.html ---
 (./web.4ct)
-l.105 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
+l.107 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
 minipage} ---
-l.106 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
+l.108 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
 abular} ---
 [3] [4] [5]
 \openout15 = `web.tmp'.
@@ -1545,7 +1545,7 @@ abular} ---
 (./web.tmp)
 --- file Teaching.html ---
 
-Package hyperref Warning: Suppressing link with empty target on input line 144.
+Package hyperref Warning: Suppressing link with empty target on input line 146.
 
 
 [6
@@ -1569,7 +1569,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 144.
 (./web.tmp)
 --- file CurriculumVitae.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-19.
+21.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [8
@@ -1612,4 +1612,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  113i,10n,120p,930b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (47 pages, 246948 bytes).
+Output written on web.dvi (47 pages, 247004 bytes).
