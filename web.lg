@@ -141,19 +141,19 @@ Css: div.author, div.date {text-align:center;}
 Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
 Css: div.author{white-space: nowrap;}
 Font_Size: 12
-Css: div.abstract p {margin-left:5%; margin-right:5%;}
-Css: div.abstract {width:100%;}
-Css: .abstracttitle{text-align:center;margin-bottom:1em;}
-Css: .subsectionToc, .likesubsectionToc {margin-left:1em;}
-Css: .subsubsectionToc, .likesubsubsectionToc {margin-left:2em;}
-Css: .paragraphToc, .likeparagraphToc {margin-left:3em;}
-Css: .subparagraphToc, .likesubparagraphToc {margin-left:4em;}
+Css: h1.partHead{text-align: center}
+Css:  .chapterToc, .likechapterToc {margin-left:0em;}
+Css:  .likesectionToc, .sectionToc {margin-left:1em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:2em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:2em;}
+Css:  .likesubsubsectionToc, .subsubsectionToc {margin-left:3em;}
+Css: .paragraphToc, .likeparagraphToc {margin-left:4em;}
+Css: .subparagraphToc, .likesubparagraphToc {margin-left:5em;}
 Css: figure.float, div.figure {margin-left: auto; margin-right: auto;}
 Css: figure.figure {text-align:center;}
 Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 Css: p + figcaption, img + figcaption{margin-top: 1em;}
-Css: .abstract{margin:1em;}
 Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
 Css: table.tabular td p{margin-top:0em;}
 Css: table.tabular {margin-left: auto; margin-right: auto;}
