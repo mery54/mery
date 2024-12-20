@@ -2,6 +2,7 @@ htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
 htfcss: ptmri7t font-style: italic;
 htfcss: ptmr7t font-family: monospace,monospace;
+htfcss: phvr7t  font-family: sans-serif;
 htfcss:  pcrr7t  font-family: 'Nimbus Mono L', serif;
 htfcss:  pcrbo7t  font-weight: bold; font-style: oblique; font-family: 'Nimbus Mono L', serif;
 htfcss:  pcrr7t  font-family: 'Nimbus Mono L', serif;
@@ -12,6 +13,7 @@ File: web.html
 File: web.css
 File: web.tmp
 File: contentsname.html
+File: LastNews.html
 File: Teaching.html
 File: Research.html
 File: CurriculumVitae.html
@@ -229,6 +231,7 @@ Font("pcrr7t","","10","144")
 Font("cmmi","12","12","100")
 Font("cmmi","8","8","100")
 Font("pcrr7t","","10","120")
+Font("phvr7t","","10","120")
 Font("ptmri7t","","10","120")
 Font("ptmr7t","","10","109")
 Font("ptmrc7t","","10","109")
