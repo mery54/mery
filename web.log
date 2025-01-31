@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  31 JAN 2025 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  31 JAN 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1614,7 +1614,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.569 \originalbibitem{mery2018crisis}{\sc D.~Méry
+l.585 \originalbibitem{mery2018crisis}{\sc D.~Méry
                                                   }. --
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1629,7 +1629,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 \originalbibitem{mery2019jaipur}{\sc D.~Méry
+l.601 \originalbibitem{mery2019jaipur}{\sc D.~Méry
                                                   }. --
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1645,16 +1645,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.922   Â«
+l.938   Â«
           PERSPECTIVES OF SYSTEM INFORMATICS\/}, A.~Marchuk (r\'ed.), Novosi...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[33] [34]
-l. 1109 Writing web.idv[1] (web0x.svg)
-[35] [36] [37] [38] [39] [40] [41] [42]
+[33] [34] [35]
+l. 1125 Writing web.idv[1] (web0x.svg)
+[36] [37] [38] [39] [40] [41] [42]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (éro).
 
@@ -1662,7 +1662,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1568 \newblock {\em Internal Report numéro
+l.1606 \newblock {\em Internal Report numéro
                                             {} CRIN-89-R-60\/}, {C}entre de
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1677,7 +1677,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1576 \newblock {\em Rapport Interne numéro
+l.1614 \newblock {\em Rapport Interne numéro
                                             {} CRIN-89-R-229\/}, CRIN, octob...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1693,7 +1693,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1581 \newblock {\em Research Report numéro
+l.1619 \newblock {\em Research Report numéro
                                             {} CRIN-89-R-205\/}, Centre de R...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1709,7 +1709,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1590 \newblock {\em Rapport numéro
+l.1628 \newblock {\em Rapport numéro
                                     {} num\'{e}ro de convention 89-58 00 790 92
 
 The document does not appear to be in UTF-8 encoding.
@@ -1718,7 +1718,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[43]
+[43] [44]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (éro).
 
@@ -1726,7 +1726,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1678 \newblock {\em Rapport numéro
+l.1716 \newblock {\em Rapport numéro
                                     {} RR-7081\/}, INRIA, 2009.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1734,7 +1734,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[44] [45]
+[45] [46]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (ème).
 
@@ -1742,7 +1742,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1787 \newblock -Algorithmique des Système
+l.1825 \newblock -Algorithmique des Système
                                            s Parallèles et Distribués-. --
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1757,7 +1757,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1787 ...ck -Algorithmique des Systèmes Parallèle
+l.1825 ...ck -Algorithmique des Systèmes Parallèle
                                                   s et Distribués-. --
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1772,7 +1772,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1787 ...e des Systèmes Parallèles et Distribués-
+l.1825 ...e des Systèmes Parallèles et Distribués-
                                                   . --
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1780,7 +1780,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[46]) [47] [48
+[47]) [48] [49
 
 ] (./web.aux)
  ***********
@@ -1789,12 +1789,12 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33142 strings out of 474117
- 608176 string characters out of 5743707
+ 33150 strings out of 474117
+ 608386 string characters out of 5743707
  1936184 words of memory out of 5000000
- 54547 multiletter control sequences out of 15000+600000
+ 54555 multiletter control sequences out of 15000+600000
  580604 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,10n,120p,930b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,10n,120p,930b,1053s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (48 pages, 249684 bytes).
+Output written on web.dvi (49 pages, 253112 bytes).
