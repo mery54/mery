@@ -43,6 +43,10 @@
 
 ("sec:publications-" "s" nil "/Users/mery/webmery/web.tex" nil "")
 
+(toc "toc" "      3.1 Documents" "/Users/mery/webmery/web.tex" nil 3 "3.1" "\\subsection{Documents}" 15377)
+
+("sec:documents" "s" nil "/Users/mery/webmery/web.tex" nil "")
+
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)
 
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)
