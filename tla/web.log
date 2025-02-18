@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  18 FEB 2025 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  18 FEB 2025 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1472,7 +1472,11 @@ File: l3backend-dvips.def 2024-02-20 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count343
 \g__pdf_backend_link_int=\count344
 \g__pdf_backend_link_sf_int=\count345
-) (./web.aux)
+) (./web.aux
+
+LaTeX Warning: Label `sec:comp-sum-elem' multiply defined.
+
+)
 \openout1 = `web.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -1528,7 +1532,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 02.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3] [4
+) [3] [4] [5
 
 ] (./web.aux)
  ***********
@@ -1536,16 +1540,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32375 strings out of 474117
- 595461 string characters out of 5743707
+ 32381 strings out of 474117
+ 595514 string characters out of 5743707
  1932184 words of memory out of 5000000
- 53821 multiletter control sequences out of 15000+600000
- 577227 words of font info for 102 fonts, out of 8000000 for 9000
+ 53826 multiletter control sequences out of 15000+600000
+ 577775 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,9n,120p,930b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (4 pages, 30756 bytes).
+Output written on web.dvi (5 pages, 31896 bytes).

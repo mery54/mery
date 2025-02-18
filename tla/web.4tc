@@ -1,3 +1,4 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
 \doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{2}{x2-10001}{QQ2-2-1}{TLA$^+$ Models without Proofs}}{3}\relax 
-\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{2}{x2-20001.1}{QQ2-2-2}{ computing the sum of elements of a vector.}}{3}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{2}{x2-20001.1}{QQ2-2-2}{ Computing the sum of elements of a vector.}}{3}\relax 
+\doTocEntry\tocsubsection{1.2}{\csname a:TocLink\endcsname{2}{x2-30001.2}{QQ2-2-3}{Incrementing a positive value}}{4}\relax 
