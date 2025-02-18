@@ -4,18 +4,18 @@ EXTENDS Integers, Naturals, TLC,TLAPS
 -------------------------------
 CONSTANTS n
 -------------------------------
-pre(u) == u >= 0
+pre == n \geq 0
 
 (*
 --algorithm oddeven {
 variables  rs=0,re=0,input=n,cur=0,ce=0,cs=0;
 {
+
 w:while (cur # n) {
       if (cur % 2 # 0) {
         cs := cs+cur+1;
         ce := ce+cur+1;
-        cur := cur+1;	
-        }
+        cur := cur+1;	}
 	else
 	{
         cs := cs+cur+1;
@@ -26,7 +26,6 @@ w:while (cur # n) {
 	}
 	}
 *)
-
 
 
 
@@ -71,11 +70,18 @@ Termination == <>(pc = "Done")
 \* END TRANSLATION 
 
 ---------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------
+
 InductiveInvariant == 
     /\ ( (pc = "w") => (cs = (cur*(cur+1)) \div 2))   
     /\   ((pc = "Done") => (cs = (n*(n+1)) \div 2))
 
-ASSUME Assumption == pre(n)
+ASSUME Assumption == pre
 
 THEOREM InitProperty == Init => InductiveInvariant
 <1> SUFFICES ASSUME Init
@@ -89,7 +95,7 @@ OBVIOUS
 <1>6. cur= 0  BY Assumption  DEF Init
 <1>. QED
 BY <1>1, <1>2, <1>3, <1>4, <1>5, <1>6   DEF InductiveInvariant,pre
-======
+
 THEOREM Init => InductiveInvariant
 BY Assumption DEF Init, InductiveInvariant, pre
 
