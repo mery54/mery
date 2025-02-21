@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  21 FEB 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  21 FEB 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,20 +1505,20 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count346
 Package hyperref Info: Link coloring ON on input line 85.
 --- file web.css ---
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 \c@ex=\count347
 [1
 
 ] [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
 7.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -1530,7 +1530,7 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 \openout15 = `web.tmp'.
 
 (./web.tmp)
---- file TLAModelswithoutProofs.html ---
+--- file EventBModelsforCorrectbyCnstructoonSequentialAlgorithms.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 02.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1547,12 +1547,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32383 strings out of 474117
- 595541 string characters out of 5743707
+ 32334 strings out of 474117
+ 595127 string characters out of 5743707
  1932184 words of memory out of 5000000
- 53828 multiletter control sequences out of 15000+600000
- 577775 words of font info for 103 fonts, out of 8000000 for 9000
+ 53793 multiletter control sequences out of 15000+600000
+ 568193 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,9n,120p,930b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (5 pages, 32828 bytes).
+Output written on web.dvi (5 pages, 33024 bytes).

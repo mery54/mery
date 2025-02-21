@@ -1,10 +1,12 @@
----------- MODULE TLAPROOFODDEVEN  ---------
+---------------MODULE TLAPROOF----------------
+
 EXTENDS TLAPROOFDOMAIN
--------------------------------
+
 CONSTANTS n
--------------------------------
 pre(u) == u >= 0
 
+
+\* BEGIN TRANSLATION (chksum(pcal) = "a9fed7e7" /\ chksum(tla) = "f1896d17")
 VARIABLES rs, re, input, cur, ce, cs, pc
 
 vars == << rs, re, input, cur, ce, cs, pc >>
@@ -21,7 +23,9 @@ Init == (* Global variables *)
 w == /\ pc = "w"
      /\ IF cur # n
            THEN /\ IF cur % 2 # 0
-                      THEN /\ PL}
+                      THEN /\ cs' = cs+cur+1
+                           /\ ce' = ce+cur+1
+                           /\ cur' = cur+1
                       ELSE /\ cs' = cs+cur+1
                            /\ ce' = ce
                            /\ cur' = cur+1
@@ -40,16 +44,15 @@ Spec == Init /\ [][Next]_vars
 
 Termination == <>(pc = "Done")
 
-
----------------------------------------------------------------
-
-i1 == cur \in 0..n  /\ input = n  /\ rs \in Int  /\  pc \in {"w","Done"}
-i2 == (pc = "w") => (cs = s[cur])
-i3 ==   (pc = "Done") =>  (rs=s[n])
-i4 == (pc = "Done") =>  (re=es[n]) 
-InductiveInvariant ==   i1 /\ i2 /\ i3 /\ i4
+\* END TRANSLATION 
 
 
+i1 == 
+    /\ ( (pc = "w") => (cs = (cur*(cur+1)) \div 2))   
+    /\   ((pc = "Done") => (cs = (n*(n+1)) \div 2))
+
+
+InductiveInvariant == i1
 ASSUME Assumption == pre(n)
 
 THEOREM InitProperty == Init => InductiveInvariant
@@ -65,39 +68,39 @@ OBVIOUS
 <1>. QED
 BY <1>1, <1>2, <1>3, <1>4, <1>5, <1>6   DEF InductiveInvariant,pre
 
-
-
 THEOREM Init => InductiveInvariant
 BY Assumption DEF Init, InductiveInvariant, pre
-
-
 
 LEMMA truc ==
 ASSUME  InductiveInvariant, w
   PROVE  InductiveInvariant'
+BY DEFS InductiveInvariant,w
 
-
-<1>1. cur \in 0..n  BY  SMT  DEFS InductiveInvariant,w,pre
-<1>a. CASE cur \in 0..n-1
-     <2>1.  pc="w"   /\  UNCHANGED << rs, re, input >>
-     BY <1>a,  SMT  DEFS InductiveInvariant, i1,i2,i4,i3,w, pre
-     <2>2. input = n /\ rs \in Int  /\  pc \in {"w","Done"}
-     BY <1>a,  SMT  DEFS InductiveInvariant, i1,i2,i4,i3,w, pre
-     <2>3.pc'=pc /\ ( (pc' = "w") => (cs' = s[cur']))
-     BY <1>a,  SMT  DEFS InductiveInvariant, i1,i2,i4,i3,w, pre     
-     <2>10. InductiveInvariant'
-     BY <1>a, <2>1, SMT  DEFS InductiveInvariant, i1,i2,i3,i4,w, pre        
-     <2>11. QED
-     BY <1>a, <2>1,<2>2, SMT DEFS InductiveInvariant,w, pre
-<1>b. CASE cur = n
-     <2>1.  pc="w" /\ cur < n   /\ pc' = "Done"/\ UNCHANGED << rs, re, input >>
-     BY <1>a,  SMT  DEFS InductiveInvariant, i1,i2,i3,i4,w, pre
-     <2>2. InductiveInvariant'
-     BY <2>2,SMT  DEFS InductiveInvariant, i1,i2,i3,i4,w,pre       
-     <2>3. QED
-     BY <1>a, <2>1,<2>2, SMT DEFS InductiveInvariant,w, pre
+LEMMA  wpo1 ==
+ASSUME  InductiveInvariant, w1
+  PROVE  i1'
+<1>. USE DEF InductiveInvariant, i1,i0,w1, typeInt, pre
+<1>1.  a = a0 /\  b = b0 /\ ((a<b) \/ (a >=b))  BY  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+<1>a. CASE a <  b
+     <2>1.  pc="w1" /\ a<b /\ r'=b /\ pc' = "Done" /\ UNCHANGED << a, b>>
+     BY <1>a,  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+     <2>2.  pc' = "Done" => r' =maximum(a0,b0)
+     BY <1>a, <2>1,  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+     <2>3. i1'
+     BY <2>2,SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum         
+     <2>. QED
+     BY <1>a, <2>1,<2>2,<2>3, SMT DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+<1>b. CASE a  >=  b
+     <2>1.  pc="w1" /\ a >= b /\ r'=a /\ pc' = "Done" /\ UNCHANGED << a, b>>
+     BY <1>b,  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+     <2>2.  pc' = "Done" => r' =maximum(a0,b0)
+     BY <1>b, <2>1,  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+     <2>3. i1'
+     BY <1>b,<2>1,<2>2,SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum         
+     <2>. QED
+     BY <1>b, <2>1,<2>2,<2>3, SMT DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
 <1>2. QED     
-  BY  <1>a, <1>b, SMT DEFS InductiveInvariant,w, pre
+  BY  <1>a, <1>b, SMT DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
 
 
 
@@ -125,5 +128,6 @@ THEOREM Correctness == Spec => []InductiveInvariant
          w
 <1>. QED  BY <1>1, <1>2, PTL  DEF Spec
 
-======================================================
- 
+
+
+==============================

@@ -1,0 +1,140 @@
+\documentclass[ 12pt]{article}
+%\documentclass[ 12pt]{book}
+
+\usepackage{times,vmargin,url,html}
+\setmarginsrb{3cm}{1cm}{2cm}{1cm}{1cm}{1cm}{1cm}{1cm}
+%\setpapersize{A4}
+\usepackage{dr-bibbib} %-sort-year}
+
+\usepackage{color,time,array,time}
+\pagecolor{yellow}
+%\pagecolor{cyan}
+\pagecolor{white}
+
+\newcommand{\keywords}[1]{\textbf{Keywords:} #1} %\\ \clearpage %\tableofcontents\clearpage}
+%
+
+\usepackage{xcolor}
+%\usepackage{b2latex}
+
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite,time}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor,time,url,nbcode,version}
+\usepackage{wrapfig}
+%\usepackage{b2latex}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{bussproofs}
+\usepackage{wrapfig,setspace}
+%\usepackage{lstcoq}
+\usepackage{xspace}
+\usepackage{hyperref}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\input{prelude}
+%ddd -aal\renewcommand{\baselinestretch}{0.90}
+\newtheorem{myexample}{Example}[section]
+\newtheorem{mytheorem}{Property}
+%\newtheorem{definition}{Definition}
+%\includeversion{check}
+% \excludeversion{check}
+% \excludeversion{long}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{exemple}{Example}
+%\newtheorem{theorem}{Theorem}
+%\newcommand{\white}[1]{\textcolor{white}{#1}}
+
+%\newtheorem{comm}{Teaching Point}
+%\newenvironment{comm}{\iffalse}{\fi}
+%\excludeversion{comm}
+
+\input eb2latex
+
+\pagestyle{plain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Modelling with Event-B}
+\author{Dominique M\'ery\\
+LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
+\url{https://members.loria.fr/Mery}\\ \url{dominique-dot-mery-at-loria-dot-fr}}
+
+%\date{Last updated \now on \today}
+
+\makeatletter
+\renewcommand\contentsname{Summary of the links}
+\renewcommand\tableofcontents{%
+  \null\hfill\textbf{\Large\contentsname}\hfill\null\par
+  \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+  \@starttoc{toc}%
+}
+\makeatother
+
+
+\begin{document}
+\newcounter{ex}  \setcounter{ex}{1}
+\maketitle
+
+
+
+\section{Event-B Models  for Correct-by-Cnstructoon Sequential Algorithms}
+\label{sec:last-news}
+
+\subsection{ Computing the sum of elements of a vector.}
+\label{sec:comp-sum-elem}
+
+
+\begin{itemize}
+\item[] 
+  \href{https://mery54.github.io/mery/eventb/ex3.zip}{Rodin Archive 
+    for  the algorithm  computing the sum of elements of a vector.}
+\item   \href{https://mery54.github.io/mery/eventb/ex3.pdf}{Rodin Archive 
+    for  the algorithm  computing the sum of elements of a vector in
+    pdf }
+
+\end{itemize}
+
+
+
+\subsection{Incrementing a positive value}
+\label{sec:comp-sum-elem}
+
+
+\begin{itemize}
+\item[] 
+  \href{https://mery54.github.io/mery/tla/TLAPROOFINC.tla}{TLA Module 
+    for the algorithm \textit{ incrementing a positive value.}}
+\item   \href{https://mery54.github.io/mery/tla/TLAPROOFINC.pdf}{Module 
+    TLA for the algorithm  \textit{incrementing a positive value}
+    in pdf}
+    
+\end{itemize}
+
+
+
+\subsection{Maximum of two integer values}
+\label{sec:comp-sum-elem}
+
+
+\begin{itemize}
+\item[] 
+  \href{https://mery54.github.io/mery/tla/TLAPROOFMAX2.tla}{TLA Module 
+    for the algorithm \textit{ maximum of two integer values}}
+\item   \href{https://mery54.github.io/mery/tla/TLAPROOFMAX2.pdf}{Module 
+    TLA for the algorithm  \textit{{maximum of two integer values}}
+    in pdf}
+    
+\end{itemize}
+
+\end{document}
