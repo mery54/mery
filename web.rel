@@ -47,6 +47,10 @@
 
 ("sec:documents" "s" nil "/Users/mery/webmery/web.tex" nil "")
 
+(toc "toc" "    4 TLA^+$$ Corner" "/Users/mery/webmery/web.tex" nil 2 "4" "\\section{TLA^+$$ Corner}" 15805)
+
+("sec:tla+-corner" "s" nil "/Users/mery/webmery/web.tex" nil "")
+
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)
 
 (toc "toc" "    1 Teaching Materials" "/Users/mery/webmery/web.tex" nil 2 "1" "\\section{Teaching Materials}" 2229)

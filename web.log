@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  19 FEB 2025 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  25 FEB 2025 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1472,7 +1472,11 @@ File: l3backend-dvips.def 2024-02-20 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count343
 \g__pdf_backend_link_int=\count344
 \g__pdf_backend_link_sf_int=\count345
-) (./web.aux)
+) (./web.aux
+
+LaTeX Warning: Label `sec:tla+-corner' multiply defined.
+
+)
 \openout1 = `web.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -1629,7 +1633,17 @@ l. 1125 Writing web.idv[1] (web0x.svg)
 --- file TLACorner.html ---
 [49
 
-] [50
+]
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+\openout15 = `web.tmp'.
+
+(./web.tmp)
+--- file EventBCorner.html ---
+[50
+
+] [51
 
 ] (./web.aux)
  ***********
@@ -1637,16 +1651,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33179 strings out of 474117
- 608800 string characters out of 5743707
+ 33196 strings out of 474117
+ 609041 string characters out of 5743707
  1936184 words of memory out of 5000000
- 54576 multiletter control sequences out of 15000+600000
+ 54589 multiletter control sequences out of 15000+600000
  580604 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,120p,930b,1053s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (50 pages, 258568 bytes).
+Output written on web.dvi (51 pages, 261016 bytes).
