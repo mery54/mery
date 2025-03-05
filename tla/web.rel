@@ -1,0 +1,82 @@
+;; RefTeX parse info file
+;; File: /Users/mery/tlafolder/web.tex
+;; User: mery (Dominique Méry)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/mery/tlafolder/")
+
+(label-numbers)
+
+(bof "/Users/mery/tlafolder/web.tex")
+
+(file-error "prelude")
+
+(file-error "eb2latex")
+
+(toc "toc" "    1 TLA$^+$ Models without Proofs" "/Users/mery/tlafolder/web.tex" nil 2 "1" "\\section{TLA$^+$ Models without Proofs}" 2418)
+
+("sec:last-news" "s" "\\subsection{ computing the sum of elements of a vector.} \\begin{itemize} " "/Users/mery/tlafolder/web.tex" nil)
+
+(toc "toc" "      1.1 computing the sum of elements of a vector." "/Users/mery/tlafolder/web.tex" nil 3 "1.1" "\\subsection{ computing the sum of elements of a vector.}" 2480)
+
+("sec:comp-sum-elem" "s" nil "/Users/mery/tlafolder/web.tex" nil "")
+
+(toc "toc" "      1.1 computing the sum of elements of a vector." "/Users/mery/tlafolder/web.tex" nil 3 "1.1" "\\subsection{ computing the sum of elements of a vector.}" 2480)
+
+(toc "toc" "    2 Teaching" "/Users/mery/tlafolder/web.tex" nil 2 "2" "\\section{Teaching}" 2480)
+
+(toc "toc" "    3 Research" "/Users/mery/tlafolder/web.tex" nil 2 "3" "\\section{Research}" 2480)
+
+(toc "toc" "      3.1 Current scientific activities" "/Users/mery/tlafolder/web.tex" nil 3 "3.1" "\\subsection{Current scientific activities}" 2480)
+
+(toc "toc" "    4 Curriculum Vitae" "/Users/mery/tlafolder/web.tex" nil 2 "4" "\\section{Curriculum Vitae}" 2480)
+
+(toc "toc" "      4.1 Titles and Diploms" "/Users/mery/tlafolder/web.tex" nil 3 "4.1" "\\subsection{Titles and Diploms}" 2480)
+
+(toc "toc" "      4.2 Professional Records" "/Users/mery/tlafolder/web.tex" nil 3 "4.2" "\\subsection{Professional Records}" 2480)
+
+(toc "toc" "      4.3 National and International Implications:" "/Users/mery/tlafolder/web.tex" nil 3 "4.3" "\\subsection{National and International Implications:}" 2480)
+
+(toc "toc" "        4.3.1 Grants, Prices and Reputation" "/Users/mery/tlafolder/web.tex" nil 4 "4.3.1" "\\subsubsection{Grants, Prices and Reputation}" 2480)
+
+(toc "toc" "        4.3.2 Assessment and Scientific Expertise" "/Users/mery/tlafolder/web.tex" nil 4 "4.3.2" "\\subsubsection{Assessment and Scientific Expertise}" 2480)
+
+(toc "toc" "        4.3.3 Scientific Management" "/Users/mery/tlafolder/web.tex" nil 4 "4.3.3" "\\subsubsection{Scientific Management}" 2480)
+
+(toc "toc" "        4.3.4 Administrative and social activities" "/Users/mery/tlafolder/web.tex" nil 4 "4.3.4" "\\subsubsection{Administrative and social activities}" 2480)
+
+(toc "toc" "    5 List of PhD Supervisions" "/Users/mery/tlafolder/web.tex" nil 2 "5" "\\section{List of PhD Supervisions}" 2480)
+
+("sec:list-phd-superv" "s" "\\input phdlist C \\section{Publications }  \\subsection{On HAL} \\href{https://haltools.inria.fr/Public" "/Users/mery/tlafolder/web.tex" nil)
+
+(file-error "phdlist")
+
+(toc "toc" "    6 Publications " "/Users/mery/tlafolder/web.tex" nil 2 "6" "\\section{Publications }" 2480)
+
+("sec:publications-" "s" "\\subsection{On HAL} \\href{https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=domini" "/Users/mery/tlafolder/web.tex" nil)
+
+(toc "toc" "      6.1 On HAL" "/Users/mery/tlafolder/web.tex" nil 3 "6.1" "\\subsection{On HAL}" 2480)
+
+(toc "toc" "      6.2 On DBLP " "/Users/mery/tlafolder/web.tex" nil 3 "6.2" "\\subsection{On DBLP }" 2480)
+
+(toc "toc" "      6.3 My list of publications" "/Users/mery/tlafolder/web.tex" nil 3 "6.3" "\\subsection{My list of publications}" 2480)
+
+(file-error "pub-gen.bbl")
+
+(toc "toc" "    7 Preprints" "/Users/mery/tlafolder/web.tex" nil 2 "7" "\\section{Preprints}" 2480)
+
+("sec:documents" "s" "\\begin{itemize} " "/Users/mery/tlafolder/web.tex" nil)
+
+(eof "/Users/mery/tlafolder/web.tex")
+))
+

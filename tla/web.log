@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  21 FEB 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  5 MAR 2025 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,9 +1530,9 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 \openout15 = `web.tmp'.
 
 (./web.tmp)
---- file TLAModelswithoutProofs.html ---
+--- file TLAModelswithProofs.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-02.
+06.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3] [4] [5
@@ -1547,12 +1547,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32383 strings out of 474117
- 595541 string characters out of 5743707
- 1932184 words of memory out of 5000000
- 53828 multiletter control sequences out of 15000+600000
+ 32381 strings out of 474117
+ 595522 string characters out of 5743707
+ 1933184 words of memory out of 5000000
+ 53826 multiletter control sequences out of 15000+600000
  577775 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,9n,120p,930b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (5 pages, 32828 bytes).
+Output written on web.dvi (5 pages, 33428 bytes).
