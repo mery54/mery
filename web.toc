@@ -16,3 +16,5 @@
 \contentsline {subsection}{\numberline {6.2}On DBLP }{7}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}My list of publications}{8}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Preprints}{25}{section.7}%
+\contentsline {section}{\numberline {8}TLA$^+$ Corner}{25}{section.8}%
+\contentsline {section}{\numberline {9}Event-B Corner}{25}{section.9}%
