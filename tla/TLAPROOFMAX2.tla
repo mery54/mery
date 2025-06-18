@@ -68,7 +68,8 @@ OBVIOUS
 <1>4. r \in Int  BY  DEF Init
 <1>5. pc = "w1" BY DEF Init
 <1>6. QED
-BY  <1>1, <1>2,<1>3, <1>4, <1>5, Assumption   DEF InductiveInvariant, i1,i0,w1, typeInt, pre, Init
+BY  <1>1, <1>2,<1>3, <1>4, <1>5, Assumption   DEF InductiveInvariant,
+ i1,i0,w1, typeInt, pre, Init
 
 -------------------------------------------------------
 (* Preservation of i1 by w1 *)
@@ -79,7 +80,8 @@ LEMMA  w1po1 ==
 ASSUME  InductiveInvariant, w1
   PROVE  i1'
 <1>. USE DEF InductiveInvariant, i1,i0,w1, typeInt, pre
-<1>1.  a = a0 /\  b = b0 /\ ((a<b) \/ (a >=b))  BY  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
+<1>1.  a = a0 /\  b = b0 /\ ((a<b) \/ (a >=b))  BY  SMT 
+ DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
 <1>a. CASE a <  b
      <2>1.  pc="w1" /\ a<b /\ r'=b /\ pc' = "Done" /\ UNCHANGED << a, b>>
      BY <1>a,  SMT  DEFS InductiveInvariant, i1,i0,w1, typeInt, pre,maximum
@@ -131,7 +133,8 @@ LEMMA NextP1 ==
 ASSUME InductiveInvariant, Next
 PROVE i1'
 
-BY  w1po1, Terminatingpo1  DEFS Next,InductiveInvariant, i1,w1, Terminating,  typeInt, pre, vars,maximum  
+BY  w1po1, Terminatingpo1  DEFS Next,InductiveInvariant, i1,w1, Terminating,  
+typeInt, pre, vars,maximum  
 --------------------------
 (* Preservation of i0 by w1 *)
 
@@ -190,7 +193,8 @@ LEMMA NextP0 ==
 ASSUME InductiveInvariant, Next
 PROVE i0'
 
-BY  w1po0, Terminatingpo0  DEFS Next,InductiveInvariant, i1,w1, Terminating,  typeInt, pre, vars,maximum  
+BY  w1po0, Terminatingpo0  DEFS Next,InductiveInvariant, i1,w1, Terminating,  
+typeInt, pre, vars,maximum  
 --------------------------
 
 (* Preservation of InductiveInvariant by Next *)
@@ -222,7 +226,8 @@ THEOREM Invariance == Spec => [] InductiveInvariant
 <1>2 Init => InductiveInvariant
 BY InitProperty   DEF InductiveInvariant, i1,w1, Terminating,  typeInt, pre, vars  
 <1>3 Spec => []InductiveInvariant
-  BY PTL, InitProperty, NextP, <1>1 DEF Spec,InductiveInvariant, i1,w1, Terminating,  typeInt, pre,vars  
+  BY PTL, InitProperty, NextP, <1>1 DEF Spec,InductiveInvariant, i1,w1, Terminating, 
+   typeInt, pre,vars  
 <1> QED
   BY PTL, <1>2, <1>3
 

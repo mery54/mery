@@ -146,6 +146,6 @@ Safe == i
 
 THEOREM Safety == Spec => [] Safe 
 
-BY  Invariance DEFS Safe
+BY  Invariance DEFS Safe, Spec
 
 =========

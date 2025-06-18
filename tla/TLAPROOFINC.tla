@@ -96,7 +96,8 @@ BY  DEFS InductiveInvariant, i1,i2,i3,i4, evt1,typeInt,pre,vars
 LEMMA evt1po ==
 ASSUME  InductiveInvariant, evt1
   PROVE  InductiveInvariant'
-BY evt1po1,evt1po2,evt1po3,evt1po4,PTL DEFS InductiveInvariant, i1,i2,i3,i4, evt1,typeInt,pre,vars
+BY evt1po1,evt1po2,evt1po3,evt1po4,PTL DEFS InductiveInvariant, 
+i1,i2,i3,i4, evt1,typeInt,pre,vars
 
 
 
@@ -111,7 +112,8 @@ LEMMA NextP ==
 ASSUME InductiveInvariant, Next
 PROVE InductiveInvariant'
 
-BY evt1po, Terminatingpo , PTL DEF Next, InductiveInvariant, i1,i2,i3,i4, evt1,typeInt,pre,vars
+BY evt1po, Terminatingpo , PTL DEF Next, InductiveInvariant, i1,i2,i3,i4,
+ evt1,typeInt,pre,vars
 
 
 stut == UNCHANGED <<x,pc>>
@@ -128,11 +130,13 @@ LEMMA NNextInvariant ==
 ASSUME InductiveInvariant,  [Next]_vars
 PROVE InductiveInvariant'
 
-BY NextP,stutteringpo, PTL DEF Next, stut, InductiveInvariant, i1,i2,i3,i4, stut, typeInt,pre,vars      
+BY NextP,stutteringpo, PTL DEF Next, stut, InductiveInvariant, i1,i2,i3,i4, 
+stut, typeInt,pre,vars      
 
 
 THEOREM INV ==  InductiveInvariant /\   [Next]_vars => InductiveInvariant'
-BY NNextInvariant DEFS Next, stut, InductiveInvariant, i1,i2,i3,i4, stut, typeInt,pre,vars
+BY NNextInvariant DEFS Next, stut, InductiveInvariant, i1,i2,i3,i4, stut, 
+typeInt,pre,vars
 
 
 
