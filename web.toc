@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {2}Teaching}{3}{section.2}%
 \contentsline {section}{\numberline {3}Research}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Current scientific activities}{3}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Curriculum Vitae}{3}{section.4}%
+\contentsline {section}{\numberline {4}Curriculum Vitae}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Titles and Diploms}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Professional Records}{4}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}National and International Implications:}{4}{subsection.4.3}%
