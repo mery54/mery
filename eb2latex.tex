@@ -1,0 +1,40 @@
+\renewcommand{\CONTEXT}[3]{\Bclause{CONTEXT}\ #1\\}
+%\renewcommand{\event}[1]{\textsf{#1}}
+\renewcommand{\Axiom}[4]{\quad #1:#3\\}
+\renewcommand{\Invariant}[4]{\quad #1:#3\\}
+\renewcommand{\INVARIANTS}[1]{\Bclause{INVARIANTS}\\ #1}
+\renewcommand{\CONSTANTS}[1]{\Bclause{CONSANTS}\\ #1}
+\renewcommand{\AXIOMS}[1]{\Bclause{AXIOMS}\\ #1}
+\renewcommand{\EVENTS}[1]{%\Bclause{EVENTS}\\
+  #1}
+\renewcommand{\INITIALISATION}[3]{#3\\}
+\renewcommand{\Action}[4]{\quad #1:#2\\}
+\newcommand{\Actione}[4]{\quad #1:#2}
+\renewcommand{\ACTIONS}[2]{\Bkeyword{then}\\ #2\\}
+\renewcommand{\EVT}[6]{\textsf{Event}\ #1\\
+  % \textsf{refines}\ #4\\
+  #6}
+\renewcommand{\GUARDS}[2]{\Bkeyword{when}\\ #2\\
+}
+\renewcommand{\Guard}[5]{\quad #1:#3\\}
+\newcommand{\Guarde}[5]{\quad #1:#3}
+\renewcommand{\MACHINE}[4]{\Bclause{MACHINE}\ #1\ \Bclause{SEES}\ #3\\}
+
+\renewcommand{\END}{\textsf{end}\\}
+
+\renewcommand{\VARIABLES}[1]{\Bclause{VARIABLES}\\ \quad \quad #1\\ }
+\renewcommand{\Variable}[2]{ #1\  }
+\renewcommand{\Constant}[2]{ #1, }
+
+\renewcommand{\VARIANT}[1]{\Bkeyword{Variant}\\ \quad #1\\}
+\renewcommand{\Variant}[2]{#1\\}
+
+\renewcommand{\ANY}[2]{\Bkeyword{Any}\\ #1\\}
+\renewcommand{\Param}[3]{\quad  #1,}
+\newcommand{\WITNESSES}[1]{\Bclause{WITH}\\ #1}
+\newcommand{\Witness}[3]{\quad  #1:#2\\}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:

@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% FOR B MODELS
+\let\bin        \in
+\let\bintersection      \cap
+\let\bparallel  \parallel
+\let\btab       \quad
+%\let\bunion     \cup
+\let\diam       \Diamond
+\let\dres       \vartriangleleft
+%\let\empty      \emptyset
+\let\fun        \rightarrow
+%\let\square\Box
+\def\opening{\char94}
+\let\cross\times
+%\let\rel        \leftrightarrow
+
+
+\renewcommand\iff{\mathrel{\;\Leftrightarrow\;}}
+\newcommand{\bpartial}[1]{\mathrel{\ooalign{\hfil$\mapstochar\mkern 5mu$\hfil\cr$#1$}}}
+
+
+\newcommand{\choice}{\mathbin{[\mkern-1mu]}}
+\let\bimplies\implies
+\newcommand{\band}{\mathrel{\>\wedge\>}}
+\newcommand{\bcdot}{\!\cdot\!}
+\newcommand{\bloverwrite}{<\kern-.65em\raise.305ex\hbox{$\scriptscriptstyle +$}}
+\newcommand{\bor}{\mathrel{\vee}}
+\newcommand{\bsemicolon}{\mathrel{\boldsymbol{;}}}
+\newcommand{\defs}{\mathrel{\;\widehat=\;}}
+\newcommand{\finset}{\mathbb{F}}
+\newcommand{\nrres}{\mathbin{\rlap{\lower.0305ex\hbox{$-$}}{\vartriangleright}}}
+%\newcommand{\pfun}{\bpartial\rightarrow}
+%\newcommand{\pinj}{\bpartial\rightarrowtail}
+%\newcommand{\power}{\mathbb{P}}
+%\newcommand{\upto}{\mathbin{\ldotp\ldotp}}
+
+\newcommand{\bbeginarray}{\btab\begin{array}{l}}
+\newcommand{\bendarray}{\end{array}}
+\newcommand{\bendarraywithnl}{\end{array}\ \\}
+
+
+\def\p#1{\mathrel{\ooalign{\hfil$\mapstochar\mkern 5mu$\hfil\cr$#1$}}}
+
+
+
+\def\surcharge{~\vartriangleleft\!\!\!-\,}
+\def\antirestriction{~\vartriangleleft\mkern-14mu\raisebox{-.2pt}{$-$}\,}
+\def\anticorestriction{~\vartriangleright\mkern-14mu\raisebox{-.2pt}{$-$}\,}
+\def\partInj{\p\totalInj}
+\def\partBij{\p\totalBij}
+\def\partFunct{\p\rightarrow}
+\def\partSurj{\p\totalSurj}
+\def\totalInj{\rightarrowtail}
+\def\totalBij{\totalSurj\!\!\!\!\!\!\!\totalInj}
+\def\totalSurj{\twoheadrightarrow}
+\def\colon{:}
+\def\Bstruct{\cdot}
+
+
+%\newcommand{\Bkeyword}[1]{\mathinner{\textbf{\textsc{\uppercase{#1}}}}}
+\newcommand{\Bkeyword}[1]{\textbf{\textrm{\mdseries\small\uppercase{#1}}}}
+\newcommand{\Bclause}[1]{\textbf{\textrm{\mdseries\small\uppercase{#1}}}}
+\def\Boperator#1{\mathop{\textsf{#1}}}
+\newcommand{\Bop}[1]{\mathop{\textsf{#1}}}
+\def\Boperator#1{\mathop{\textsf{#1}}}
+%\newcommand{\Bevent}[1]{{\textbf{\textsc{EVENT}}\ \textsf{#1}}}
+\newcommand{\Bevent}[1]{{\textsc{EVENT}\ \textsf{#1}}}
+\newcommand{\mevent}[1]{{\textsf{#1}}}
+\newcommand{\BRevent}[1]{{\textsc{REFINES}}\ \textsf{#1}}
+
+\newcommand{\Any}{\Bkeyword{Any}}
+\newcommand{\When}{\Bkeyword{When}}
+\newcommand{\Where}{\Bkeyword{Where}}
+\newcommand{\Then}{\Bkeyword{Then}}
+\newcommand{\End}{\Bkeyword{End}}
+
+
+\newenvironment{Bcode}
+  {\small \begin{array}{|@{\quad}l@{\quad}|}\hline\\[-1.8\jot]}
+  {\\[1.8\jot]\hline\end{array}}
+\newenvironment{Bpo}
+  {\renewcommand\arraystretch{1.5}
+\begin{array}{||@{\quad}l@{\quad}||}\hline\\[-4\jot]}
+  {\\[2.7\jot]\hline\end{array}}
+
+
+\def\surcharge{~\vartriangleleft\!\!\!-\,}
+\def\antirestriction{~\vartriangleleft\mkern-14mu\raisebox{-.2pt}{$-$}\,}
+\def\anticorestriction{~\vartriangleright\mkern-14mu\raisebox{-.2pt}{$-$}\,}
+\def\partInj{\p\totalInj}
+\def\partBij{\p\totalBij}
+\def\partFunct{\p\rightarrow}
+\def\partSurj{\p\totalSurj}
+\def\totalInj{\rightarrowtail}
+\def\totalBij{\totalSurj\!\!\!\!\!\!\!\totalInj}
+\def\totalSurj{\twoheadrightarrow}
+\def\colon{:}
+\def\Bstruct{\cdot}
+\def\surcharge{~\vartriangleleft\!\!\!-\,}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\BPARA}[1]{
+     \\\textbf{#1}\\
+}
+\newcommand{\BPara}[1]{
+     \hspace*{0.7 cm} \textsc{#1}\\
+}
+\newcommand{\EVT}[1]{
+\Bevent{#1}}
+\newcommand{\REF}[1]{
+     \textsc {REFINES }#1\\
+}
+\newcommand{\tab}[1]{
+     \hspace*{0.7 cm}$ #1$
+}
+\newcommand{\etab}[1]{
+     \hspace*{1.3 cm}$ #1$
+}
+\newcommand{\cmt}[1]{
+     $/\ast$ #1 $\ast/$
+}
+
+
+

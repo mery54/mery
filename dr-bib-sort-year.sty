@@ -1,0 +1,43 @@
+% Package dr-bib.sty
+% Ce package doit etre utilise' conjointement avec le
+% style de bibliographie dr-bib.bst.
+% Il s'agit d'extraits de ra94.sty.
+%
+% D. Roegel, 24/1/1995
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dr-bib-sort-year}[2014/11/23 dr-bib  LaTeX2e package (D. Roegel)]
+\newcounter{multbib} 
+\setcounter{multbib}{0}
+\def\thebibliography#1[#2]{%
+    \subsection*{#2}{\markboth{}{}}%
+    \list{[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+                            \advance\leftmargin\labelsep \usecounter{enumi}}
+    \setcounter{enumi}{\value{multbib}} 
+    \def\newblock{\hskip .11em plus.33em minus.07em} 
+    \sloppy\clubpenalty4000\widowpenalty4000 \sfcode`\.=1000\relax}
+\let\original@bibliographystyle=\bibliographystyle
+\let\original@bibliography=\bibliography
+\def\bibliography#1{\original@bibliographystyle{dr-bib-sort-year}%
+                    %\begin{nonfrench}%
+                    \original@bibliography{#1}%
+                    %\end{nonfrench}%
+                    }
+\def\bibliographystyle#1{\@warning{dr-bib-sort-year: bibliography style ``#1'' ignored}}
+\let\originalbibitem=\bibitem
+\def\bibAAname{Books, monographs and proceeedings} %Livres, monographies et actes de colloques} 
+\def\bibBBname{Theses} 
+\def\bibCCname{Papers in per-reviewed journals}%Articles   dans des revues internationales} 
+\def\bibCCFname{General Papers} %Articles   de vulgarisation} 
+\def\bibCCIname{Book chapters} %Chapitres de livre} 
+\def\bibDDname{Communications in international conferences with per-reviewed proceedings} % \`a des congr\`es, colloques, etc.} 
+\def\bibDDDname{Communications in international workshops or national conferences  with per-reviewed proceedings} % \`a des congr\`es, colloques, etc.} 
+\def\bibEEname{Rapports de fin de contrat} 
+\def\bibFFname{Lectures Notes} %Cours polycopi\'es} 
+\def\bibGGname{Research reports} % Rapports de recherche, rapports de fin de contrat et publications internes} 
+\def\bibHHname{Software}%Logiciels} 
+\def\bibIICname{Lectures Notes} 
+\endinput
+%% 
+%% End of file `dr-bib-sort-year.sty'.
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  25 OCT 2025 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  30 OCT 2025 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,10 +1523,11 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-l.100 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
-l.100 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
-sf.xbb" (no BoundingBox) ---
-l. 100 --- needs --- ./images/merysf.jpg ---
+l.101 --- TeX4ht warning --- File `"./images/mery301025-shanghai.xbb"' not foun
+d ---
+l.101 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
+301025-shanghai.xbb" (no BoundingBox) ---
+l. 101 --- needs --- ./images/mery301025-shanghai-.png ---
 (./web.4ct)
 \openout15 = `web.tmp'.
 
@@ -1536,9 +1537,9 @@ l. 100 --- needs --- ./images/merysf.jpg ---
 (./web.tmp)
 --- file contentsname.html ---
 (./web.4ct)
-l.107 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
+l.108 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
 minipage} ---
-l.108 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
+l.109 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
 abular} ---
 [3] [4]
 \openout15 = `web.tmp'.
@@ -1549,7 +1550,7 @@ abular} ---
 (./web.tmp)
 --- file LastNews.html ---
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-67.
+68.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [5
@@ -1563,7 +1564,7 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 (./web.tmp)
 --- file Teaching.html ---
 
-Package hyperref Warning: Suppressing link with empty target on input line 196.
+Package hyperref Warning: Suppressing link with empty target on input line 197.
 
 
 [6
@@ -1587,7 +1588,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 196.
 (./web.tmp)
 --- file CurriculumVitae.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-71.
+72.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [8
@@ -1655,12 +1656,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33196 strings out of 474117
- 609041 string characters out of 5743707
+ 33199 strings out of 474117
+ 609150 string characters out of 5743707
  1936184 words of memory out of 5000000
  54589 multiletter control sequences out of 15000+600000
  580604 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,120p,930b,1053s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (51 pages, 263200 bytes).
+Output written on web.dvi (51 pages, 263260 bytes).

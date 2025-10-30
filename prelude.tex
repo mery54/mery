@@ -1,0 +1,90 @@
+\let\proof\relax
+\let\endproof\relax
+\let\example\relax
+\let\endexample\relax
+
+
+
+\usepackage{mathpartir}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{rotating}
+\usepackage{blox}
+\usepackage{graphicx} 
+\usepackage{eventblst}
+\usepackage{cite}
+\usepackage{dafny}
+ 
+
+% \usepackage{amssymb,amsmath} problematic with acm, use \usepackage{newtxtext,newtxmath}
+% \usepackage{newtxtext,newtxmath}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macros for proof-reading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{xcolor}
+\usepackage{ifthen}
+\newboolean{showcomments}
+\setboolean{showcomments}{true} % toggle to show or hide comments
+
+\ifthenelse{\boolean{showcomments}} { 
+    \usepackage{outlines}
+    \let\oldoutline\outline
+    \def\outline{\oldoutline\color{blue}}
+
+    \usepackage[normalem]{ulem}
+    \def \ifempty#1{\def\temp{#1} \ifx\temp\empty }
+    \newcommand{\xnote}[3][]{\textcolor{red}{#2}$\rightarrow$ \textcolor{blue}{\textbf{#1} #3}}
+    \newcommand{\xtodo}[2][]{\xnote[#1]{}{#2}}
+
+    \newcommand{\xreplace}[3][]{\ifempty {#3} \textcolor{red}{\textbf{#1} \sout{#2}} \else \textcolor{red}{\sout{#2}} $\rightarrow$ \textcolor{blue}{\textbf{#1} "#3"} \fi}
+    \newcommand{\xdelete}[2][]{\xreplace[#1]{#2}{}}
+    \newcommand{\xadd}[2][]{\xreplace[#1]{}{#2}}
+} {
+    \newcommand{\xnote}[3][]{}
+    \newcommand{\xtodo}[2][]{}
+    \newcommand{\xreplace}[3][]{#3}
+    \newcommand{\xdelete}[2][]{}
+    \newcommand{\xadd}[2][]{#2}
+    \def\outline{}
+    \def\1{}
+    \def\2{}
+    \def\3{}
+    \def\4{}
+}
+% % % % % % % % % % % % % % % % % % % % % % % % %
+
+\newcommand{\dnote}[2]{\xnote[DM]{#1}{#2}}
+\newcommand{\dtodo}[1]{\xtodo[DM]{#1}}
+\newcommand{\dreplace}[2]{\xreplace[DM]{#1}{#2}}
+\newcommand{\ddelete}[1]{\xdelete[DM]{#1}}
+\newcommand{\dadd}[1]{\xadd[DM]{#1}}
+
+
+\newcommand{\znote}[2]{\xnote[ZC]{#1}{#2}}
+\newcommand{\ztodo}[1]{\xtodo[ZC]{#1}}
+\newcommand{\zreplace}[2]{\xreplace[ZC]{#1}{#2}}
+\newcommand{\zdelete}[1]{\xdelete[ZC]{#1}}
+\newcommand{\zadd}[1]{\xadd[ZC]{#1}}
+
+% % % % % % % % % % % % % % % % % % % % % % % % %
+
+\newcommand{\PB}{{\sc\bf  PB}\;}
+\newcommand{\MO}{{\sc\bf  MO}\;}
+\newcommand{\GC}{{\sc\bf  GC}\;}
+\newcommand{\HP}{{\sc\bf  HP}\;}
+\newcommand{\dL}{d${\cal  L}$\;}
+
+\newcommand*\choice[0]{[\!]}
+\newcommand{\set}[1]{\{#1\}}
+\newcommand{\aloop}[1]{\textbf{do}\  #1  \ \textbf{od}}
+
+\makeatletter
+\def\footnoterule{\relax%
+  \kern-5pt
+  \hbox to \columnwidth{\hfill\vrule width 0.9\columnwidth height 0.4pt\hfill}
+  \kern4.6pt}
+\makeatother

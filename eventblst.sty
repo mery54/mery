@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Event-B listings with Rodin unicode characters   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 2016  Guillaume Babin  <guillaume.babin@enseeiht.fr>
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{eventblst}
+    [2016/11/28 v3.0 Event-B listings]
+
+\RequirePackage{bsymb}
+
+\RequirePackage{listings}
+
+% \lstdefinestyle{eventb}{%
+%     float=!htp,
+%     mathescape,
+%     columns=flexible,
+%     basicstyle=\linespread{0.8}\fontfamily{lmvtt}\selectfont\small,
+%     keywords={Any,Axioms,Begin,Constants,Context,End,Event,Events,
+%               Extends,Invariants,Machine,Refines,Sees,Sets,Then,
+%               Theorems,Variables,Variant,When,Where,With,Theorem},
+%     keywordstyle=\fontfamily{pcr}\selectfont\bfseries\footnotesize,
+%     comment=[l]{//},
+%     commentstyle=\itshape,
+%     frame=single,
+%     captionpos=b,
+%     inputencoding=utf8,
+%     extendedchars=true
+% }
+
+% \lstset{%
+%   literate=%                                 %% ASCII %%
+%     {:∈}{{\ensuremath{\bcmin{}}}}2           %
+%     {:∣}{{\ensuremath{\bcmsuch{}}}}2         % :|
+%     {ℕ1}{{\ensuremath{\natn{}}}}2            % NAT1
+%     {ℙ1}{{\ensuremath{\pown{}}}}2            % POW1
+%     {;}{{\ensuremath{\fcomp{}}}}1            % ;
+%     {^}{{\ensuremath{\expn{}}}}1             % ^
+%     {⩥}{{\ensuremath{\ransub{}}}}1           % |>>
+%     {▷}{{\ensuremath{\ranres{}}}}1           % |>
+%     {∪}{{\ensuremath{\bunion{}}}}1           % \/
+%     {∩}{{\ensuremath{\binter{}}}}1           % /\
+%     {↦}{{\ensuremath{\mapsto{}}}}1           % |->
+%     {→}{{\ensuremath{\tfun{}}}}1             % -->
+%     {⊄}{{\ensuremath{\not\subset{}}}}1       % /<<:
+%     {⊈}{{\ensuremath{\not\subseteq{}}}}1     % /<:
+%     {∉}{{\ensuremath{\notin{}}}}1            % /:
+%     {⇔}{{\ensuremath{\leqv{}}}}1             % <=>
+%     {⇒}{{\ensuremath{\limp{}}}}1             % =>
+%     {∧}{{\ensuremath{\land{}}}}1             % &
+%     {∀}{{\ensuremath{\forall{}}}}1           % !
+%     {∃}{{\ensuremath{\exists{}}}}1           % #
+%     {≠}{{\ensuremath{\ne{}}}}1               % /=
+%     {≤}{{\ensuremath{\le{}}}}1               % <=
+%     {≥}{{\ensuremath{\ge{}}}}1               % >=
+%     {⊂}{{\ensuremath{\subset{}}}}1           % <<:
+%     {⊆}{{\ensuremath{\subseteq{}}}}1         % <:
+%     {}{{\ensuremath{\strel{}}}}1            % <<->>
+%     {}{{\ensuremath{\trel{}}}}1             % <<->
+%     {}{{\ensuremath{\srel{}}}}1             % <->>
+%     {↔}{{\ensuremath{\rel{}}}}1              % <->
+%     {⤖}{{\ensuremath{\tbij{}}}}1             % >->>
+%     {⇸}{{\ensuremath{\pfun{}}}}1             % +->
+%     {⤔}{{\ensuremath{\pinj{}}}}1             % >+>
+%     {↣}{{\ensuremath{\tinj{}}}}1             % >->
+%     {⤀}{{\ensuremath{\psur{}}}}1             % +->>
+%     {↠}{{\ensuremath{\tsur{}}}}1             % -->>
+%     {∅}{{\ensuremath{\emptyset{}}}}1         % {}
+%     {∖}{{\ensuremath{\setminus{}}}}1         % \
+%     {×}{{\ensuremath{\cprod{}}}}1            % **
+%     {}{{\ensuremath{\ovl{}}}}1              % <+
+%     {⊗}{{\ensuremath{\dprod{}}}}1            % ><
+%     {∥}{{\ensuremath{\pprod{}}}}1            % ||
+%     {∼}{{\ensuremath{^{-1}}}}1               % ~
+%     {⩤}{{\ensuremath{\domsub{}}}}1           % <<|
+%     {◁}{{\ensuremath{\domres{}}}}1           % <|
+%     {λ}{{\ensuremath{\lambda{}}}}1           % %
+%     {‥}{{\ensuremath{\upto{}}}}1             % ..
+%     {·}{{\ensuremath{\qdot{}}}}1             % .
+%     {−}{{\ensuremath{-}}}1                   % -
+%     {∗}{{\ensuremath{*}}}1                   % *
+%     {÷}{{\ensuremath{\div{}}}}1              % +
+%     {≔}{{\ensuremath{\bcmeq{}}}}1            % :=
+%     {∈}{{\ensuremath{\in{}}}}1               % :
+%     {∣}{{\ensuremath{\mid{}}}}1              % |
+%     {ℕ}{{\ensuremath{\nat{}}}}1              % NAT
+%     {ℙ}{{\ensuremath{\pow{}}}}1              % POW
+%     {ℤ}{{\ensuremath{\intg{}}}}1             % INT
+%     {⋂}{{\ensuremath{\Inter{}}}}1            % INTER
+%     {⋃}{{\ensuremath{\Union{}}}}1            % UNION
+%     {∨}{{\ensuremath{\lor{}}}}1              % or
+%     {¬}{{\ensuremath{\lnot{}}}}1             % not
+%     {⊤}{{\ensuremath{\btrue{}}}}1            % true
+%     {⊥}{{\ensuremath{\bfalse{}}}}1           % false
+%     {∘}{{\ensuremath{\bcomp{}}}}1            % circ
+%     {⦂}{{\ensuremath{\oftype{}}}}1           %
+%     {≜}{{\ensuremath{\mathrel{\widehat=}}}}1 %
+% }
+
+\lstdefinelanguage{eventb}{
+    mathescape,
+    basicstyle=\linespread{1.1}\selectfont\small,
+    keywords={Any,Axioms,Begin,Constants,Context,End,Event,Events,
+              Extends,Invariants,Machine,Refines,Sees,Sets,Then,
+              Theorems,Variables,Variant,When,Where,With,Theorem,Pre,Var,In,If,Else,Parameters,Operator,Returns},
+    keywordstyle=\selectfont\bfseries\footnotesize,
+    comment=[l]{//},
+    commentstyle=\itshape,
+    frame=single,
+    captionpos=b,
+    inputencoding=utf8,
+    extendedchars=true
+}
+
+\@ifpackageloaded{microtype}%
+  {% microtype is loaded
+    \lstnewenvironment{eventb}[2]%
+      {%
+        \microtypesetup{protrusion=false}%
+        \lstset{%
+          style=eventb,%
+          caption=#1,%
+          label=#2%
+        }%
+      }%
+      {%
+        \microtypesetup{protrusion=true}%
+      }%
+  }%
+  {% microtype is not loaded
+    \lstnewenvironment{eventb}[2]%
+      {%
+        \lstset{%
+          style=eventb,%
+          caption=#1,%
+          label=#2%
+        }%
+      }%
+      {%
+      }%
+  }%
+
+\endinput
+
+%% Operators (not implemented)
+% partition    \partition
+% inter        \inter
+% union        \union
+% dom          \dom
+% ran          \ran
+% id           \id
+% prj1         \prjone
+% prj2         \prjtwo
+% finite       \finite
+% card         \card
+% pred         \upred
+% succ         \usucc
+% mod          \bmod
+% BOOL         \Bool
+% TRUE         \True
+% FALSE        \False
+% bool         \bool
