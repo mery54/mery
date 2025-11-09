@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  9 NOV 2025 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=latex 2024.12.14)  9 NOV 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,14 +1523,10 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-l.104 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
-l.104 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
+l.103 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
+l.103 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
 sf.xbb" (no BoundingBox) ---
-l. 104 --- needs --- ./images/merysf.jpg ---
-l.105 --- TeX4ht warning --- File `"./images/merysh.xbb"' not found ---
-l.105 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
-sh.xbb" (no BoundingBox) ---
-l. 105 --- needs --- ./images/merysh.jpg ---
+l. 103 --- needs --- ./images/merysf.jpg ---
 (./web.4ct)
 \openout15 = `web.tmp'.
 
@@ -1540,9 +1536,9 @@ l. 105 --- needs --- ./images/merysh.jpg ---
 (./web.tmp)
 --- file contentsname.html ---
 (./web.4ct)
-l.114 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
+l.110 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
 minipage} ---
-l.115 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
+l.111 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
 abular} ---
 [3] [4]
 \openout15 = `web.tmp'.
@@ -1553,7 +1549,7 @@ abular} ---
 (./web.tmp)
 --- file LastNews.html ---
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-75.
+71.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [5
@@ -1567,7 +1563,7 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 (./web.tmp)
 --- file Teaching.html ---
 
-Package hyperref Warning: Suppressing link with empty target on input line 204.
+Package hyperref Warning: Suppressing link with empty target on input line 200.
 
 
 [6
@@ -1591,7 +1587,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 204.
 (./web.tmp)
 --- file CurriculumVitae.html ---
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-79.
+75.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [8
@@ -1659,12 +1655,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33200 strings out of 474117
- 609129 string characters out of 5743707
+ 33196 strings out of 474117
+ 609041 string characters out of 5743707
  1936184 words of memory out of 5000000
- 54592 multiletter control sequences out of 15000+600000
+ 54589 multiletter control sequences out of 15000+600000
  580604 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,120p,930b,1053s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (51 pages, 263544 bytes).
+Output written on web.dvi (51 pages, 263216 bytes).
