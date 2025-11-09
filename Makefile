@@ -1,6 +1,6 @@
 all:
 	git add --all
-	git commit -m "I commit"
+	git commit -m "I update"
 	git push -u origin main
 
 
