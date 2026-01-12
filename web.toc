@@ -1,20 +1,20 @@
-\contentsline {section}{\numberline {1}Last News}{3}{section.1}%
-\contentsline {section}{\numberline {2}Teaching}{3}{section.2}%
-\contentsline {section}{\numberline {3}Research}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Current scientific activities}{3}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Curriculum Vitae}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Titles and Diploms}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Professional Records}{4}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}National and International Implications:}{5}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Grants, Prices and Reputation}{5}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Assessment and Scientific Expertise}{5}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Scientific Management}{6}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Administrative and social activities}{6}{subsubsection.4.3.4}%
-\contentsline {section}{\numberline {5}List of PhD Supervisions}{7}{section.5}%
-\contentsline {section}{\numberline {6}Publications }{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}On HAL}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}On DBLP }{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}My list of publications}{8}{subsection.6.3}%
+\contentsline {section}{\numberline {1}Last News}{1}{section.1}%
+\contentsline {section}{\numberline {2}Teaching}{2}{section.2}%
+\contentsline {section}{\numberline {3}Research}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Current scientific activities}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Curriculum Vitae}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Titles and Diploms}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Professional Records}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}National and International Implications:}{4}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Grants, Prices and Reputation}{4}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Assessment and Scientific Expertise}{4}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Scientific Management}{5}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Administrative and social activities}{5}{subsubsection.4.3.4}%
+\contentsline {section}{\numberline {5}List of PhD Supervisions}{6}{section.5}%
+\contentsline {section}{\numberline {6}Publications }{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}On HAL}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}On DBLP }{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}My list of publications}{7}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Preprints}{26}{section.7}%
-\contentsline {section}{\numberline {8}TLA$^+$ Corner}{26}{section.8}%
-\contentsline {section}{\numberline {9}Event-B Corner}{26}{section.9}%
+\contentsline {section}{\numberline {8}TLA$^+$ Corner}{27}{section.8}%
+\contentsline {section}{\numberline {9}Event-B Corner}{27}{section.9}%

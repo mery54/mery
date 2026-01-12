@@ -1,18 +1,27 @@
 \documentclass[ 12pt]{article}
-%\documentclass[ 12pt]{book}
-
-\usepackage{times,vmargin,url,html}
-\setmarginsrb{3cm}{1cm}{2cm}{1cm}{1cm}{1cm}{1cm}{1cm}
-%\setpapersize{A4}
+%\dose cctioncumentclass[ 12pt]{book}
 \usepackage{dr-bibbib} %-sort-year}
+\usepackage{times,vmargin,url}
+%\setmarginsrb{3cm}{1cm}{2cm}{1cm}{1cm}{1cm}{1cm}{1cm}
+\setpapersize{A4}
 
-\usepackage{color,time,array,time}
-\pagecolor{yellow}
+
+\usepackage{color,time}
+%\pagecolor{yellow}
 %\pagecolor{cyan}
 \pagecolor{white}
+\title{Modelling,  verification   and experimentation  for 
+  software-based systems (MOVEX)}
+
 
 \newcommand{\keywords}[1]{\textbf{Keywords:} #1} %\\ \clearpage %\tableofcontents\clearpage}
 %
+\title{Dominique M\'ery's Home Page}
+\author{Dominique M\'ery\\
+LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
+\url{https://members.loria.fr/Mery}\\ \url{dominique-dot-mery-at-loria-dot-fr}}
+
+%\date{Last updated \now on \today}
 
 \usepackage{xcolor}
 %\usepackage{b2latex}
@@ -65,12 +74,6 @@
 \pagestyle{plain}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Dominique Méry's Home Page}
-\author{Dominique M\'ery\\
-LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
-\url{https://members.loria.fr/Mery}\\ \url{dominique-dot-mery-at-loria-dot-fr}}
-
-%\date{Last updated \now on \today}
 
 \makeatletter
 \renewcommand\contentsname{Summary of the links}
@@ -80,7 +83,6 @@ LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
   \@starttoc{toc}%
 }
 \makeatother
-
 
 \begin{document}
 \newcounter{ex}  \setcounter{ex}{1}
@@ -96,12 +98,25 @@ structure  of CNRS, INRIA and  Université de Lorraine.  You can
 contact him  using the email of LORIA.
 
 
-
-
 \noindent
-\begin{tabular}{m{0.5\textwidth} m{0.5\textwidth}}
-  \includegraphics{./images/merysf.jpg}      &
-                                             \begin{minipage}{0.5\linewidth}
+\begin{minipage}{\linewidth}
+\begin{minipage}{0.4\linewidth}
+  \includegraphics[scale=0.7]{./images/merysf.jpg}
+  \end{minipage} \begin{minipage}{0.6\linewidth}
+    \setcounter{tocdepth}{1} 
+  \tableofcontents
+
+  {Last updated \now on \today}
+\end{minipage}\end{minipage}
+
+
+
+
+\iffalse
+\noindent
+\begin{tabular}{m{0.3\textwidth} m{0.5\textwidth}}
+  \includegraphics{./images/merysf.jpg}   &
+                                             \begin{minipage}{0.7\linewidth}
                                             
 
 \tableofcontents
@@ -110,7 +125,7 @@ contact him  using the email of LORIA.
 \end{minipage}
 \end{tabular}
 
-
+\fi
 
 \iffalse
 \begin{minipage}{1.0\linewidth}
@@ -133,7 +148,7 @@ contact him  using the email of LORIA.
 \end{minipage}
 \fi
 
-
+%\end{document}
 \section{Last News}
 \label{sec:last-news}
 

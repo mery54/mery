@@ -13,12 +13,9 @@
 .ptmr7t-x-x-144{font-family: monospace,monospace;}
 .ptmr7t-x-x-144{font-family: monospace,monospace;}
 .pcrr7t-x-x-144{font-size:120%; font-family: 'Nimbus Mono L', serif;}
-.pcrr7t-x-x-144{ font-family: 'Nimbus Mono L', serif;}
 .cmr-8{font-size:66%;}
 .cmmi-12{font-style: italic;}
 .cmmi-8{font-size:66%;font-style: italic;}
-.pcrr7t-x-x-120{ font-family: 'Nimbus Mono L', serif;}
-.pcrr7t-x-x-120{ font-family: 'Nimbus Mono L', serif;}
 .phvr7t-x-x-120{ font-family: sans-serif;}
 .ptmri7t-x-x-120{font-style: italic;}
 .ptmr7t-x-x-109{font-size:90%;font-family: monospace,monospace;}
@@ -137,7 +134,6 @@ table.pmatrix {width:100%;}
 span.bar-css {text-decoration:overline;}
 img.cdots{vertical-align:middle;}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
-.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -166,28 +162,6 @@ figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-al
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 p + figcaption, img + figcaption{margin-top: 1em;}
 .abstract{margin:1em;}
-div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
-table.tabular td p{margin-top:0em;}
-table.tabular {margin-left: auto; margin-right: auto;}
-td p:first-child{ margin-top:0em; }
-td p:last-child{ margin-bottom:0em; }
-div.td00{ margin-left:0pt; margin-right:0pt; }
-div.td01{ margin-left:0pt; margin-right:5pt; }
-div.td10{ margin-left:5pt; margin-right:0pt; }
-div.td11{ margin-left:5pt; margin-right:5pt; }
-table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-td.td00{ padding-left:0pt; padding-right:0pt; }
-td.td01{ padding-left:0pt; padding-right:5pt; }
-td.td10{ padding-left:5pt; padding-right:0pt; }
-td.td11{ padding-left:5pt; padding-right:5pt; }
-table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-.hline hr, .cline hr{ height : 0px; margin:0px; }
-.hline td, .cline td{ padding: 0; }
-.hline hr, .cline hr{border:none;border-top:1px solid black;}
-.hline {border-top: 1px solid black;}
-.hline + .vspace:last-child{display:none;}
-.hline:first-child{border-bottom:1px solid black;border-top:none;}
-div.array {text-align:center;}
 .equation td{text-align:center; }
 .equation-star td{text-align:center; }
 table.equation-star { width:100%; }

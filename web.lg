@@ -5,7 +5,6 @@ htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: phvr7t  font-family: sans-serif;
 htfcss:  pcrr7t  font-family: 'Nimbus Mono L', serif;
 htfcss:  pcrbo7t  font-weight: bold; font-style: oblique; font-family: 'Nimbus Mono L', serif;
-htfcss:  pcrr7t  font-family: 'Nimbus Mono L', serif;
 htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: ptmr7t font-family: monospace,monospace;
@@ -16,10 +15,29 @@ File: contentsname.html
 File: LastNews.html
 File: Teaching.html
 File: Research.html
+File: Currentscientificactivities.html
 File: CurriculumVitae.html
+File: TitlesandDiploms.html
+File: ProfessionalRecords.html
+File: NationalandInternationalImplications.html
 File: ListofPhDSupervisions.html
 File: Publications.html
+File: OnHAL.html
+File: OnDBLP.html
+File: Mylistofpublications.html
+File: bibAAname.html
 Font_Class(4,"4"): <span  class="small-caps"></span>
+File: bibBBname.html
+File: bibCCname.html
+File: bibCCFname.html
+File: bibCCIname.html
+File: bibCCJname.html
+File: bibDDname.html
+File: bibDDDname.html
+File: bibGGname.html
+File: bibHHname.html
+File: bibIICname.html
+File: bibKKname.html
 File: Preprints.html
 File: TLACorner.html
 File: EventBCorner.html
@@ -136,7 +154,6 @@ Css: table.pmatrix {width:100%;}
 Css: span.bar-css {text-decoration:overline;}
 Css: img.cdots{vertical-align:middle;}
 Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
-Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 Css: .index-item, .index-subitem, .index-subsubitem {display:block}
 Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -166,28 +183,6 @@ Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; te
 Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 Css: p + figcaption, img + figcaption{margin-top: 1em;}
 Css: .abstract{margin:1em;}
-Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
-Css: table.tabular td p{margin-top:0em;}
-Css: table.tabular {margin-left: auto; margin-right: auto;}
-Css: td p:first-child{ margin-top:0em; }
-Css: td p:last-child{ margin-bottom:0em; }
-Css: div.td00{ margin-left:0pt; margin-right:0pt; }
-Css: div.td01{ margin-left:0pt; margin-right:5pt; }
-Css: div.td10{ margin-left:5pt; margin-right:0pt; }
-Css: div.td11{ margin-left:5pt; margin-right:5pt; }
-Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-Css: td.td00{ padding-left:0pt; padding-right:0pt; }
-Css: td.td01{ padding-left:0pt; padding-right:5pt; }
-Css: td.td10{ padding-left:5pt; padding-right:0pt; }
-Css: td.td11{ padding-left:5pt; padding-right:5pt; }
-Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
-Css: .hline td, .cline td{ padding: 0; }
-Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
-Css: .hline {border-top: 1px solid black;}
-Css: .hline + .vspace:last-child{display:none;}
-Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
-Css: div.array {text-align:center;}
 Css: .equation td{text-align:center; }
 Css: .equation-star td{text-align:center; }
 Css: table.equation-star { width:100%; }
@@ -234,7 +229,6 @@ Font("pcrr7t","","10","144")
 Font("cmr","8","8","100")
 Font("cmmi","12","12","100")
 Font("cmmi","8","8","100")
-Font("pcrr7t","","10","120")
 Font("phvr7t","","10","120")
 Font("ptmri7t","","10","120")
 Font("ptmr7t","","10","109")
