@@ -83,7 +83,7 @@ LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
   \@starttoc{toc}%
 }
 \makeatother
-
+ \setcounter{tocdepth}{1} 
 \begin{document}
 \newcounter{ex}  \setcounter{ex}{1}
 \maketitle
@@ -97,35 +97,35 @@ research activities are developed in the laboratory  \href{https://www.loria.fr}
 structure  of CNRS, INRIA and  Université de Lorraine.  You can 
 contact him  using the email of LORIA.
 
-
+\iffalse
 \noindent
 \begin{minipage}{\linewidth}
 \begin{minipage}{0.4\linewidth}
-  \includegraphics[scale=0.7]{./images/merysf.jpg}
+  \includegraphics[scale=1]{./images/merysf.jpg}
   \end{minipage} \begin{minipage}{0.6\linewidth}
-    \setcounter{tocdepth}{1} 
-  \tableofcontents
+ 
+
+    \tableofcontents
 
   {Last updated \now on \today}
 \end{minipage}\end{minipage}
+\fi
 
-
-
-
-\iffalse
+%\iffalse
 \noindent
-\begin{tabular}{m{0.3\textwidth} m{0.5\textwidth}}
-  \includegraphics{./images/merysf.jpg}   &
-                                             \begin{minipage}{0.7\linewidth}
-                                            
-
-\tableofcontents
+\begin{tabular}{p{0.3\textwidth} p{0.5\textwidth}}
+\begin{minipage}{0.3\linewidth}
+  \includegraphics{./images/merysf.jpg}
+  \end{minipage}
+  &
+\begin{minipage}{0.4\linewidth}
+                                            \tableofcontents
 
 {Last updated \now on \today}
 \end{minipage}
 \end{tabular}
 
-\fi
+%\fi
 
 \iffalse
 \begin{minipage}{1.0\linewidth}
@@ -443,7 +443,7 @@ C
 \subsection{On HAL}
 
 
- \href{https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=dominique%2Cmery&annee_publideb=1980&annee_publifin=2024&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css}{List
+ \href{https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=dominique%2Cmery&annee_publideb=1980&annee_publifin=2026&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css}{List
    of publications pon HAL}
 
 \subsection{On DBLP }

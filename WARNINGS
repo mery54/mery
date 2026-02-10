@@ -1,3 +1,4 @@
+No implementation found for style `dr-bibbib'
 No implementation found for style `vmargin'
 No implementation found for style `url'
 No implementation found for style `time'
@@ -20,6 +21,14 @@ No implementation found for style `ulem'
 redefining command \keywords 
 
 previous meaning of \keywords will be lost
+
+redefining command \contentsname 
+
+redefining command \tableofcontents 
 boolean showcomments not defined
 
+? brace missing for \do_cmd_MakeUppercase
+
 ? brace missing for \href
+
+counter multbib not defined
