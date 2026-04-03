@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=latex 2026.1.17)  10 FEB 2026 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=latex 2026.1.17)  3 APR 2026 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,10 +1489,10 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-l.118 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
-l.118 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
+l.104 --- TeX4ht warning --- File `"./images/merysf.xbb"' not found ---
+l.104 --- TeX4ht warning --- Cannot determine size of graphic in "./images/mery
 sf.xbb" (no BoundingBox) ---
-l. 118 --- needs --- ./images/merysf.jpg ---
+l. 104 --- needs --- ./images/merysf.jpg ---
 (./web.4ct)
 \openout15 = `web.tmp'.
 
@@ -1502,10 +1502,10 @@ l. 118 --- needs --- ./images/merysf.jpg ---
 (./web.tmp)
 --- file contentsname.html ---
 (./web.4ct)
-l.125 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
+l.111 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{minipage} and 3 \end{
 minipage} ---
-l.126 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{tabular} and 2 \end{t
-abular} ---
+l.111 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{minipage} and 2 \end{
+minipage} ---
 
 
 [3]
@@ -1930,12 +1930,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33525 strings out of 473191
- 614141 string characters out of 5715826
- 1122400 words of memory out of 5000000
- 55740 multiletter control sequences out of 15000+600000
+ 33518 strings out of 473191
+ 614081 string characters out of 5715826
+ 1122397 words of memory out of 5000000
+ 55733 multiletter control sequences out of 15000+600000
  581372 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,13n,120p,930b,1051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,9n,120p,930b,1051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on web.dvi (65 pages, 297972 bytes).
+Output written on web.dvi (65 pages, 297308 bytes).
