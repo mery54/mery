@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}Last News}{1}{section.1}%
+\contentsline {section}{\numberline {1}Last News}{2}{section.1}%
 \contentsline {section}{\numberline {2}Teaching}{2}{section.2}%
-\contentsline {section}{\numberline {3}Research}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Current scientific activities}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Research}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Current scientific activities}{3}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Curriculum Vitae}{3}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Titles and Diploms}{3}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Professional Records}{3}{subsection.4.2}%
@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {6.1}On HAL}{7}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}On DBLP }{7}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}My list of publications}{7}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Preprints}{26}{section.7}%
+\contentsline {section}{\numberline {7}Preprints}{27}{section.7}%
 \contentsline {section}{\numberline {8}TLA$^+$ Corner}{27}{section.8}%
 \contentsline {section}{\numberline {9}Event-B Corner}{27}{section.9}%

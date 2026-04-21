@@ -1,4 +1,6 @@
 \documentclass[ 12pt]{article}
+\usepackage{paracol}
+\usepackage{tex4ht}
 %\dose cctioncumentclass[ 12pt]{book}
 \usepackage{dr-bibbib} %-sort-year}
 \usepackage{times,vmargin,url}
@@ -90,27 +92,31 @@ LORIA \& Telecom Nancy\\ Universit\'e de Lorraine\\
 
 
 
- Dominique Méry is  professor of computing science at  \href{https://www.univ-lorraine.fr}{Université  de 
+ 
+% \iffalse
+
+\HCode{<div style="display:flex; gap:20px;">}
+
+\HCode{<div style="flex:1;">}
+\includegraphics[width=0.5\linewidth]{./images/merysf.jpg}
+\HCode{</div>}
+
+\HCode{<div style="flex:1;">}
+Dominique Méry is   (still!)  professor of computing science at  \href{https://www.univ-lorraine.fr}{Université  de 
 Lorraine}, where he teaches     formal methods and related topics    in the school of computer engineering 
 \href{https://telecomnancy.univ-lorraine.fr}{Telecom Nancy} and in the Faculty of Science and Technology.  His 
 research activities are developed in the laboratory  \href{https://www.loria.fr}{LORIA} joint 
 structure  of CNRS, INRIA and  Université de Lorraine.  You can 
-contact him  using the email of LORIA.
+contact him  using the email of LORIA. 
 
-%\iffalse
-\noindent
-\begin{minipage}{\linewidth}
-\begin{minipage}{0.4\linewidth}
-  \includegraphics[scale=0.5]{./images/merysf.jpg}
-  \end{minipage} \begin{minipage}{0.6\linewidth}
- 
+{Last updated \now on \today}
 
-    \tableofcontents
+\HCode{</div>}
 
-  {Last updated \now on \today}
-\end{minipage}\end{minipage}
-%\fi
+\HCode{</div>}
 
+
+\tableofcontents
 \iffalse
 \noindent
 \begin{tabular}{p{0.3\textwidth} p{0.5\textwidth}}
